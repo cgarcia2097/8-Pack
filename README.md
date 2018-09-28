@@ -18,3 +18,10 @@ Unfortunately, the existing gerbers on the repo exhibit issues discussed below:
 - The USB port on the Pro Micro touches switch #7's contacts, and interferes with the operation. Current workaround is to use a machine socket to hold the Pro Micro in place. See di0ib's use of sockets here: http://www.40percent.club/2017/04/six-pack-10.html
 
 Otherwise I am happy to report that the keyboard is mostly functional and ready to rock some Arduino code. Will be posting footage on my youtube channel when time permits.
+
+# Photos
+
+https://cdn.discordapp.com/attachments/388401386984833044/495053291818844161/IMG_0247.JPG
+https://cdn.discordapp.com/attachments/388401386984833044/495053297208786974/IMG_0248.JPG
+https://cdn.discordapp.com/attachments/388401386984833044/495053304171331584/IMG_0249.JPG
+https://cdn.discordapp.com/attachments/388401386984833044/495053307589689344/IMG_0250.JPG
