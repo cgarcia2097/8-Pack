@@ -4,7 +4,7 @@ Repository for design files, source code and assembly guides regarding this keyp
 # Some info
 - Key Unit Size: 19 mm 
 
-If using swillkb's plate editor don't forget to set the unit size to 19 mm. Otherwise, the centers of each switch are 19 mm 
+If using swillkb's plate editor don't forget to set the unit size to 19 mm. Otherwise, the centers of each switch are 19 mm apart
 
 Currently a work in progress.
 
