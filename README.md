@@ -1,4 +1,4 @@
-# 8-Key-Pro-Micro-Keypad
+# 8-Pack, another keypad powered by the Pro Micro
 Repository for design files, source code and assembly guides regarding this keypad. Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software. Mishaps, snafus and foobars expected and incoming.
 
 # Some info
