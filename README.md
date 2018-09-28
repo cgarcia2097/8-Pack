@@ -21,9 +21,8 @@ Otherwise I am happy to report that the keyboard is mostly functional and ready 
 
 # Photos
 
-<p align="center">
-<img src=https://cdn.discordapp.com/attachments/388401386984833044/495053291818844161/IMG_0247.JPG>
-<img src=https://cdn.discordapp.com/attachments/388401386984833044/495053297208786974/IMG_0248.JPG>
-<img src=https://cdn.discordapp.com/attachments/388401386984833044/495053304171331584/IMG_0249.JPG>
-<img src=https://cdn.discordapp.com/attachments/388401386984833044/495053307589689344/IMG_0250.JPG>
-</p>
+![p1](https://cdn.discordapp.com/attachments/388401386984833044/495053291818844161/IMG_0247.JPG)
+![p2](https://cdn.discordapp.com/attachments/388401386984833044/495053297208786974/IMG_0248.JPG)
+![p3](https://cdn.discordapp.com/attachments/388401386984833044/495053304171331584/IMG_0249.JPG)
+![p4](https://cdn.discordapp.com/attachments/388401386984833044/495053307589689344/IMG_0250.JPG)
+
