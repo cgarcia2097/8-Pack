@@ -20,7 +20,17 @@ Unfortunately, the existing gerbers on the repo exhibit issues discussed below:
 Otherwise I am happy to report that the keyboard is mostly functional and ready to rock some Arduino code. Will be posting footage on my youtube channel when time permits.
 
 # Photos
-
+###### Lighting
 ![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0247.JPG)
+
+###### Pro Micro Attached
+![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0248.JPG)
+
+###### Back Side
+![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0249.JPG)
+
+###### Front Side
+![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0250.JPG)
+
 
 
