@@ -1,5 +1,5 @@
 # 8-Pack
-Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his current design. Mishaps, snafus and foobars expected and incoming.
+Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his  design to 8 keys. Mishaps, snafus and foobars expected and incoming.
 
 # Some info
 - Key Unit Size: 19 mm 
