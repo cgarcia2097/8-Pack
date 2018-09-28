@@ -1,12 +1,10 @@
-# 8-Pack, another keypad powered by the Pro Micro
-Repository for design files, source code and assembly guides regarding this keypad. Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software. Mishaps, snafus and foobars expected and incoming.
+# 8-Pack
+Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his current design. Mishaps, snafus and foobars expected and incoming.
 
 # Some info
 - Key Unit Size: 19 mm 
 
 If using swillkb's plate editor don't forget to set the unit size to 19 mm. Otherwise, the centers of each switch are 19 mm apart
-
-Currently a work in progress.
 
 # Update 09/27/2018
 First batch of PCBs have arrived from Aisler. I am happy to report that the PCBs are of high quality, as well as my footprints being correct and accurate. The parts fit together like a charm. 
