@@ -1,6 +1,15 @@
 # 8-Pack
 Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his  design to 8 keys. Mishaps, snafus and foobars expected and incoming.
 
+# Update 02/20/2018
+I decided to take a detour and learn KiCAD for version 1.1 of the PCB. As such, the design files uploaded are now in the KiCAD format. Gerbers, PCB files and schematics are now available for use and scrutiny.
+
+The PCBs have arrived from JLCPCB and tested with a multimeter. I am happy to report that the issues listed in the previous update have now been resolved. Arduino code was also tested to check for functionality and it works.
+
+To-do:
+* Assembly/Programming guide
+* Upload footage of assembly and programming guide.
+
 # Update 09/27/2018
 First batch of PCBs have arrived from Aisler. I am happy to report that the PCBs are of high quality, as well as my footprints being correct and accurate. The parts fit together like a charm. 
 
