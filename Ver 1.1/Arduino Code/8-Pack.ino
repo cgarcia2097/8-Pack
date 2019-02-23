@@ -81,10 +81,13 @@ void loop() {
   for(uint8_t i = 0; i < NUMKEYS; i++){
     button[i].update();
     
+    // If button is pressed
     if(button[i].fell()){
       Keyboard.press(keyArray[i]);
       digitalWrite(ledArray[i], HIGH);
     }
+   
+   // If button is released
     if(button[i].rose()){
       Keyboard.release(keyArray[i]);
       digitalWrite(ledArray[i], LOW);     
