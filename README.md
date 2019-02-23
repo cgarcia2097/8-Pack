@@ -14,6 +14,13 @@ To-do:
 * Assembly/Programming guide
 * Upload footage of assembly and programming guide.
 
+## Photos
+#### Front
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/views/front.png)
+#### Back
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/views/back.png)
+
+
 # Update 09/27/2018
 First batch of PCBs have arrived from Aisler. I am happy to report that the PCBs are of high quality, as well as my footprints being correct and accurate. The parts fit together like a charm. 
 
