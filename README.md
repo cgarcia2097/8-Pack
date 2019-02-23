@@ -29,25 +29,25 @@ Otherwise I am happy to report that the keyboard is mostly functional and ready 
 - Key Unit Size: 19 mm 
 
 ###### Board
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/images/board.png)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/board.png)
 
 ###### Schematic
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/images/schematic.png)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/schematic.png)
 
 If using swillkb's plate editor don't forget to set the unit size to 19 mm. Otherwise, the centers of each switch are 19 mm apart
 
 # Photos
 ###### Lighting
-![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0247.JPG)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/IMG_0247.JPG)
 
 ###### Pro Micro Attached
-![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0248.JPG)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/IMG_0248.JPG)
 
 ###### Back Side
-![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0249.JPG)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/IMG_0249.JPG)
 
 ###### Front Side
-![Screenshot](https://github.com/cgarcia2097/8-Key-Pro-Micro-Keypad/blob/master/images/IMG_0250.JPG)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.0/images/IMG_0250.JPG)
 
 
 
