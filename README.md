@@ -1,6 +1,9 @@
 # 8-Pack
 Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his  design to 8 keys. Mishaps, snafus and foobars expected and incoming.
 
+## DO NOT USE THE REV 1.0 PCB, THAT HAS BEEN PROVEN FAULTY
+I might have to demote that to an alpha version if anything.
+
 # Update 02/20/2018
 I decided to take a detour and learn KiCAD for version 1.1 of the PCB. As such, the design files uploaded are now in the KiCAD format. Gerbers, PCB files and schematics are now available for use and scrutiny.
 
