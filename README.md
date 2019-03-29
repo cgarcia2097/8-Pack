@@ -1,8 +1,20 @@
 # 8-Pack
 Inspired by di0ib's Six Pack design, this keypad project is intended for me on learning how to use PCB software by extending his  design to 8 keys. Mishaps, snafus and foobars expected and incoming.
 
-## DO NOT USE THE REV 1.0 PCB, THAT HAS BEEN PROVEN FAULTY
+#### DO NOT USE THE REV 1.0 PCB, THAT HAS BEEN PROVEN FAULTY
 I might have to demote that to an alpha version if anything.
+
+# Update 03/29/2019
+Thought I would try doing PCB plates for the keypad. So I whipped up a quick design on KiCAD that integrates LED strips facing downwards from the PCB. The plates have arrived from JLCPCB, and the results are as follows:
+* The square cutouts are rounded, but still allow for the fitting of Cherry-style switches. I used di0ib's Six-Pack plate as inspiration.
+* The LED pads are misaligned with the LED strip I used. Guess I need to re-measure those LED pads once more so they are easier to solder together. In the meantime, I used an old-fashioned solder bridge to do the job. In the end the lighting circuit worked.
+* PCB material is tough. No wonder other KBDers use them in budget builds and kits.
+
+TODO: 
+* Assembly guides
+* Post photos and format accordingly
+* Firmware guides
+* Other repo cleanup
 
 # Update 02/20/2018
 I decided to take a detour and learn KiCAD for version 1.1 of the PCB. As such, the design files uploaded are now in the KiCAD format. Gerbers, PCB files and schematics are now available for use and scrutiny.
