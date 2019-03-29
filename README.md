@@ -14,6 +14,8 @@ Thought I would try doing PCB plates for the keypad. So I whipped up a quick des
 The plates have arrived from JLCPCB, and the results are as follows:
 
 * The square cutouts are rounded, but still allow for the fitting of Cherry-style switches. I used di0ib's Six-Pack plate as inspiration.
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/01%20-%20Unboxing/IMG_2131.JPG)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/01%20-%20Unboxing/IMG_2138.JPG)
 ![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2134.JPG)
 
 * The LED pads are misaligned with the LED strip I used. Guess I need to re-measure those LED pads once more so they are easier to solder together. In the meantime, I used an old-fashioned solder bridge to do the job. In the end the lighting circuit worked.
@@ -23,6 +25,8 @@ The plates have arrived from JLCPCB, and the results are as follows:
 ![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/03%20-%20Lighting%20Test/IMG_2163.JPG)
 
 * PCB material is tough. No wonder other KBDers use them in budget builds and kits.
+
+### More images in `/Ver1.1/plates/views` Please enjoy :)
 
 TODO: 
 * Assembly guides
