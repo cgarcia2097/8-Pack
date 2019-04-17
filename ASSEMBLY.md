@@ -1,4 +1,4 @@
-# (WIP) Assembly Guide
+# Assembly Guide (WIP Skeleton)
 This doc should go over the basics of how to assemble the 8pack keypad. Order of assembly is important as backtracking  requires knowledge of desoldering. Currently a WIP
 
 ## Prerequisites
