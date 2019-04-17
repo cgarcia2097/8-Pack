@@ -1,6 +1,11 @@
 # (WIP) Assembly Guide
 This doc should go over the basics of how to assemble the 8pack keypad. Order of assembly is important as backtracking  requires knowledge of desoldering. Currently a WIP
 
+## Prerequisites
+* Programming experience (if using Arduino)
+* Knowledge of command-line tools (if using TMK/QMK)
+* Basic soldering knowledge and experience (through-hole components)
+
 ## Plate Assembly (Optional, but must be decided early; assembled first)
 For those that plan to add RGB underglow lighting to their keypad using the RGB plate, please follow these steps.
 
