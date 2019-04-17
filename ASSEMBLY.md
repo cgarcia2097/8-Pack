@@ -42,7 +42,7 @@ This applies to both the included RGB plate and other 3rd-party cases.
 ### Step 9 - Attach bottom plate
 
 ## Flashing the default firmware (WIP)
-If you are familiar with the firmware flashing cycle 
+If you are familiar with the firmware flashing cycle, this should be a refresher.
 
 ### Using Arduino 
 * Install Arduino IDE and Sparkfun board drivers
@@ -51,11 +51,14 @@ If you are familiar with the firmware flashing cycle
 * Open provided Arduino code in Arduino IDE and compile
 * Hit the `Upload` button to flash the firmware into the board
 
-### Using TMK 
+### Using TMK/QMK
 
-### Using QMK 
 
-## Mods going forward
+## Mods going forward (WIP)
+
+### Using Arduino
+
+### Using TMK/QMK
 
 
 
