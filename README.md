@@ -4,6 +4,11 @@ Inspired by di0ib's Six Pack design, this keypad project is intended for me on l
 #### DO NOT USE THE REV 1.0 PCB, THAT HAS BEEN PROVEN FAULTY
 I might have to demote that to an alpha version if anything.
 
+# Update 04/17/2019
+I have created a skeleton guide for assembling the 8pack. The order of steps are important since backtracking the steps requires knowledge of desoldering.
+
+Current assembly guide: 
+
 # Update 03/29/2019
 Thought I would try doing PCB plates for the keypad. So I whipped up a quick design on KiCAD that integrates LED strips facing downwards from the PCB. 
 
