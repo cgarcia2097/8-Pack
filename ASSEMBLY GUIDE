@@ -3,6 +3,10 @@ This doc should go over the basics of how to assemble the 8pack keypad. Currentl
 
 ## Plate Assembly (Optional, but must be decided early)
 
+### Step 1 - Attach and solder LED strip to plate
+
+### Step 2 - Attach and solder JST header to plate
+
 ## Board assembly
 
 ### Step 1 - Attach switches to the plate
@@ -13,9 +17,11 @@ This doc should go over the basics of how to assemble the 8pack keypad. Currentl
 
 ### Step 4 - Attach and solder male headers to board
 
-#### IMPORTANT: If working with BOX-style switches, then stay with the program. If working with Cherry-style switches, then steps 5 and 6 are swapped
+#### IMPORTANT NOTE: If working with BOX-style switches, then steps 5 to 6 are as is. If working with Cherry-style switches, then steps 5 and 6 are swapped.
 
 ### Step 5 - Attach and solder LEDs to board
+
+### Step 6 - Attach and solder keypad switches to board
 
 ### Step 6 - Attach and solder Pro Micro to board
 
@@ -23,8 +29,16 @@ This doc should go over the basics of how to assemble the 8pack keypad. Currentl
 
 ### Step 8 - Connect the plate to the board using JST cable
 
-## Flashing the firmware
-WIP
+### Step 9 - Attach bottom plate
+
+## Flashing the firmware (WIP)
+
+### Using Arduino
+
+### Using TMK 
+
+### Using QMK
+
 
 
 
