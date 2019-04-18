@@ -2,8 +2,6 @@
 This doc should go over the basics of how to assemble the 8pack keypad. Order of assembly is important as backtracking  requires knowledge of desoldering. Currently a WIP
 
 ## Prerequisites
-* Programming experience (if using Arduino)
-* Knowledge of command-line tools (if using TMK/QMK)
 * Basic soldering knowledge and experience (through-hole components)
 
 ## Plate Assembly (Optional, but must be decided early; assembled first)
@@ -45,31 +43,3 @@ This applies to both the included RGB plate and other 3rd-party cases.
 ### Step 8 - Connect the plate to the board using JST cable
 
 ### Step 9 - Attach bottom plate
-
-## Flashing the default firmware (WIP)
-If you are familiar with the firmware flashing cycle, this should be a refresher.
-
-### Using Arduino 
-* Install Arduino IDE and Sparkfun board drivers
-* Using `Tools`->`Boards`, select `Sparkfun Pro Micro`
-* Using `Tools`->`Port`, select the port in which the Pro Micro appears
-* Open provided Arduino code in Arduino IDE and compile
-* Hit the `Upload` button to flash the firmware into the board
-
-### Using TMK/QMK
-
-
-## Mods going forward (WIP)
-
-### Using Arduino
-
-### Using TMK/QMK
-
-
-
-
-
-
-
-
-
