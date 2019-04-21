@@ -1,0 +1,8 @@
+(module "Maple Mini" (layer F.Cu) (tedit 5C59F61C)
+  (fp_text reference REF** (at -17.78 -7.62) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Maple Mini" (at -17.78 -10.16) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
