@@ -28,7 +28,7 @@ The plates have arrived from JLCPCB, and the results are as follows:
 
 * PCB material is tough. No wonder other KBDers use them in budget builds and kits.
 
-### More images in ![/Ver1.1/plates/views] Please enjoy :)
+### More images in ![link](https://github.com/cgarcia2097/8-Pack/tree/8-pack-updates/Ver.%201.1/plates/views) Please enjoy :)
 
 TODO: 
 * Assembly guides
