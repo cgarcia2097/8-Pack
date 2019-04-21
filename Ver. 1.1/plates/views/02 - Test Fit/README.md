@@ -1,7 +1,0 @@
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2133.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2134.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2135.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2140.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2141.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2142.JPG)
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/plates/views/02%20-%20Test%20Fit/IMG_2143.JPG)
