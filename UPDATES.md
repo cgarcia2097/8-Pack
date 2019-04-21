@@ -1,3 +1,12 @@
+# Update 04/20/2019
+Did some repo cleaning and added Ver. 1.2 of the keypad PCB. I am currently considering creating seperate directories for the plate and keypad PCBs sice they both have their own revisions. I have uploaded assembly images involving the Ver. 1.2 PCB, and will be added to the assembly guide.
+
+TODO:
+* Seperate keypad, plate and source code directories
+* Fix the keypad libraries uploaded
+* Complete the assembly guide
+* Complete programming guide
+
 # Update 04/17/2019
 I have created a skeleton guide for assembling the 8pack. The order of steps are important since backtracking the steps requires knowledge of desoldering. The guide itself is still a WIP.
 
