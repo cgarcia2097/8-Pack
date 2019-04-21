@@ -1,30 +1,30 @@
 # Update 04/17/2019
 I have created a skeleton guide for assembling the 8pack. The order of steps are important since backtracking the steps requires knowledge of desoldering. The guide itself is still a WIP.
 
-Current assembly guide: ![link](https://github.com/cgarcia2097/8-Pack/blob/cgarcia2097-patch-1/ASSEMBLY.md)
+Current assembly guide: ![ASSEMBLY GUIDE](https://github.com/cgarcia2097/8-Pack/blob/cgarcia2097-patch-1/ASSEMBLY.md)
 
 # Update 03/29/2019
 Thought I would try doing PCB plates for the keypad. So I whipped up a quick design on KiCAD that integrates LED strips facing downwards from the PCB. 
 
-![bottom-plate-bottom](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-bottom.png)
-![bottom-plate-top](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-top.png)
-![top-plate-bottom](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-bottom.png)
-![top-plate-top](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-top.png)
+![bottom-plate-bottom](Ver. 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-bottom.png)
+![bottom-plate-top](Ver. 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-top.png)
+![top-plate-bottom](Ver. 1.1/plates/views/00 - Renders/OSH Park/top-plate-bottom.png)
+![top-plate-top](Ver. 1.1/plates/views/00 - Renders/OSH Park/top-plate-top.png)
 
 The plates have arrived from JLCPCB, and the results are as follows:
 
 * The square cutouts are rounded, but still allow for the fitting of Cherry-style switches. I used di0ib's Six-Pack plate as inspiration.
 
-![Screenshot](Ver 1.1/plates/views/01 - Unboxing/IMG_2131.JPG)
-![Screenshot](Ver 1.1/plates/views/01 - Unboxing/IMG_2138.JPG)
-![Screenshot](Ver 1.1/plates/views/02 - Test Fit/IMG_2134.JPG)
+![Screenshot](Ver. 1.1/plates/views/01 - Unboxing/IMG_2131.JPG)
+![Screenshot](Ver. 1.1/plates/views/01 - Unboxing/IMG_2138.JPG)
+![Screenshot](Ver. 1.1/plates/views/02 - Test Fit/IMG_2134.JPG)
 
 * The LED pads are misaligned with the LED strip I used. Guess I need to re-measure those LED pads once more so they are easier to solder together. In the meantime, I used an old-fashioned solder bridge to do the job. In the end the lighting circuit worked.
 
-![Screenshot](Ver 1.1/plates/views/02 - Test Fit/IMG_2142.JPG)
-![Screenshot](Ver 1.1/plates/views/02 - Test Fit/IMG_2143.JPG)
-![Screenshot](Ver 1.1/plates/views/03 - Lighting Test/IMG_2145.JPG)
-![Screenshot](Ver 1.1/plates/views/03 - Lighting Test/IMG_2163.JPG)
+![Screenshot](Ver. 1.1/plates/views/02 - Test Fit/IMG_2142.JPG)
+![Screenshot](Ver. 1.1/plates/views/02 - Test Fit/IMG_2143.JPG)
+![Screenshot](Ver. 1.1/plates/views/03 - Lighting Test/IMG_2145.JPG)
+![Screenshot](Ver. 1.1/plates/views/03 - Lighting Test/IMG_2163.JPG)
 
 * PCB material is tough. No wonder other KBDers use them in budget builds and kits.
 
@@ -51,9 +51,9 @@ To-do:
 
 ## Photos
 #### Front
-![Screenshot](Ver 1.1/keypad/views/front.png)
+![Screenshot](Ver. 1.1/keypad/views/front.png)
 #### Back
-![Screenshot](Ver 1.1/keypad/views/back.png)
+![Screenshot](Ver. 1.1/keypad/views/back.png)
 
 
 # Update 09/27/2018
