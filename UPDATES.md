@@ -6,10 +6,10 @@ Current assembly guide: ![link](https://github.com/cgarcia2097/8-Pack/blob/cgarc
 # Update 03/29/2019
 Thought I would try doing PCB plates for the keypad. So I whipped up a quick design on KiCAD that integrates LED strips facing downwards from the PCB. 
 
-![Screenshot](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-bottom.png)
-![Screenshot](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-top.png)
-![Screenshot](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-bottom.png)
-![Screenshot](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-top.png)
+![bottom-plate-bottom](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-bottom.png)
+![bottom-plate-top](Ver 1.1/plates/views/00 - Renders/OSH Park/bottom-plate-top.png)
+![top-plate-bottom](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-bottom.png)
+![top-plate-top](Ver 1.1/plates/views/00 - Renders/OSH Park/top-plate-top.png)
 
 The plates have arrived from JLCPCB, and the results are as follows:
 
