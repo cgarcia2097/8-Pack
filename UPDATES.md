@@ -1,7 +1,7 @@
 # Update 04/17/2019
-I have created a skeleton guide for assembling the 8pack. The order of steps are important since backtracking the steps requires knowledge of desoldering.
+I have created a skeleton guide for assembling the 8pack. The order of steps are important since backtracking the steps requires knowledge of desoldering. The guide itself is still a WIP.
 
-Current assembly guide: 
+Current assembly guide: ![link](https://github.com/cgarcia2097/8-Pack/blob/cgarcia2097-patch-1/ASSEMBLY.md)
 
 # Update 03/29/2019
 Thought I would try doing PCB plates for the keypad. So I whipped up a quick design on KiCAD that integrates LED strips facing downwards from the PCB. 
@@ -51,9 +51,9 @@ To-do:
 
 ## Photos
 #### Front
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/views/front.png)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/cgarcia2097-patch-1/Ver%201.1/keypad/views/front.png)
 #### Back
-![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/master/Ver%201.1/views/back.png)
+![Screenshot](https://github.com/cgarcia2097/8-Pack/blob/cgarcia2097-patch-1/Ver%201.1/keypad/views/back.png)
 
 
 # Update 09/27/2018
