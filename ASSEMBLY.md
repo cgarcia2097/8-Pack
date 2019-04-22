@@ -40,98 +40,130 @@ To avoid confusion, the __board__ refers to the keypad PCB, as the Pro Micro is 
 ### Step 1 - Attach switches to the 8pack top plate
 With the 8pack logo facing downwards, attach the switches by pushing the keyswitch into the square cutouts. Make sure the keyswitch leads are facing the long edge of the board, and all keyswitches are in the same orientation.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2237.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2238.JPG)
 
 ### Step 2 - Attach and solder resistors to board
 We want these resistors to fit flush with the board, so firstly, bend the resistor leads 90 degrees from the tips of the resistor like so: 
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2240.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2241.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2242.JPG)
 
 You should end up with a U-shaped resistor. Next, insert the resistor leads into the through-holes marked by these labels:
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2243.JPG)
 
 The resistors should be flat against the board. It is also helpful to bend the resistor leads at the joint to prevent them from falling out during soldering.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2244.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2247.JPG)
 
 Solder the resistors, and trim the ends afterward. For the uninitiated, you are looking at a cone-shaped mound of solder, not a bubble of solder nor a partially-filled hole.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2250.JPG)
 
-### Step 3 - Attach and solder reset button to board
-Find the button label on the board, and insert the switch there.
+Trimmed:
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2255.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2256.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2257.JPG)
 
-![]()
+### Step 3 - Attach and solder male headers to board
+The short end of the header leads attach to the bottom side of the board.
 
-Flip the board (top-side up), and solder the exposed button leads on the button. As a reminder, cone-shaped mound of solder.
+Top Side:
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2259.JPG)
 
-![]()
+Bottom Side:
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2268.JPG)
 
-### Step 4 - Attach and solder male headers to board
-The short end of the headers attach to the bottom side of the board.
+It is relatively difficult to solder the headers at this step. One method is to fill one hole with solder, and push one the header leads through the hole while the solder is hot. Be careful that you are not holding the same header lead under the solder-filled hole, as that will cause burns.
 
-![]()
+In this case I also used a breadboard to keep the header leads steady.
 
-It is relatively difficult to solder the headers at this step. One method is to fill one hole with solder, and push the header through the hole while the solder is hot. Be careful that you are not holding the same pin header under the solder-filled hole, as that will cause burns.
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2262.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2263.JPG)
 
-In this case I also used a breadboard to keep the headers steady.
+Now solder the rest of the exposed header leads
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2265.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2268.JPG)
 
-Afterwards, trim the long side of the headers. This is easily done by inserting the Pro Micro onto the headers, and trimming just above the Pro Micro's board.
+### Step 4 - Attach and solder reset button to board
+The button label is right under the 8pack logo. Insert the switch there.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2270.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2271.JPG)
+
+Flip the board, and solder the exposed button leads on the button. As a reminder, cone-shaped mound of solder.
+
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2274.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2275.JPG)
+
+## Step 5 - Trim the headers
+
+Trim the long side of the headers. This is easily done by inserting the Pro Micro onto the headers, and trimming just above the Pro Micro's board.
+
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2277.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2280.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2281.JPG)
 
 Remove the Pro Micro afterwards. There are still other steps to do afterward.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2283.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2286.JPG)
 
-### Step 5 - Attach and solder keypad switches to board
+### Step 6 - Attach and solder keypad switches to board
 At this step, please check whether all your keyswitches are in the same orientation. 
 
 ![]()
 
 With the keyswitches currently mounted onto the plate, align the keyswitch through-holes with the keyswitch leads and slide the board into the keyswitch leads. 
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2236.JPG)
 
 At this point, you can see the keyswitch leads sticking out of the keyswitch holes. Solder these pins to the board.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2305.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2306.JPG)
 
-### Step 6 - Attach and solder LEDs to board
+### Step 7 - Attach and solder LEDs to board
 This step can be done one-by-one per LED, or on all LEDs at once. 
 
 There is a circular slot on the keyswitch where an LED can be inserted. Insert them through here.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2308.JPG)
 
 Make sure on the other side of the board, that the longer LED lead is on the circular pad; the shorter LED lead is on the square pad.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2309.JPG)
 
 Bend the leads in the joint area to prevent it from falling out. Do this for the other LEDs you have attached (if any).
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2311.JPG)
 
 Solder the joint area, and trim the excess leads afterwards. Repeat for any other LEDs on the board.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2313.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2314.JPG)
 
-### Step 7 - Attach and solder Pro Micro to board
+### Step 8 - Attach and solder Pro Micro to board
 With the USB port facing away from the board and in the same direction as the `USB` label, insert the Pro Micro into the headers you trimmed earlier. Make sure it is as flush as possible.
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2318.JPG)
 
 Once finished, add solder on top of the joints to connect the Pro Micro's pins to the rest of the keypad
 
-![]()
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2321.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2323.JPG)
+
 
 Head over to the  ![PROGRAMMING](PROGRAMMING.md) section after completing this step.
 
-### Step 8 - Attach bottom plate
-Perform this step after completing the ![PROGRAMMING](PROGRAMMING.md) section. Attach the M3 standoffs to the top plate using the provided M3 screws.
+### Step 9 - Attach bottom plate
+Perform this step after completing the ![PROGRAMMING](PROGRAMMING.md) section. 
+
+Attach the M3 standoffs to the top plate using the provided M3 screws.
 
 ![]()
 
