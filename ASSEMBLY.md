@@ -14,12 +14,12 @@ This doc should go over the basics of how to assemble the 8pack keypad. If the p
 * __Joint__ - the place where a component's lead intersects with a through-hole.
 
 #### Tools required
-* Soldering Iron
-* Soldering Wick
-* Soldering Flux
+* Soldering iron
+* Desoldering pump and/or solder wick
+* Soldering flux
 * Solder
-* Soldering Sponge
-* Soldering fan (Fume Extractor
+* Soldering sponge
+* Soldering fan (Fume Extractor)
 * Phillips head screwdriver
 
 #### Parts in the kit:
