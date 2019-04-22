@@ -1,5 +1,5 @@
 # Assembly Guide (WIP Skeleton)
-This doc should go over the basics of how to assemble the 8pack keypad. There are other compoenents currently on the board like LED strips; please ignore them for the time being as this is a simplified version of the 8pack keypad. 
+This doc should go over the basics of how to assemble the 8pack keypad. If the pictures look out of order, these are taken from another keypad build I am working on. The steps remain the same, however. Same reason for the extra components on the board
 
 #### Prerequisites
 * Basic soldering knowledge and experience (through-hole components, orientation)
