@@ -75,7 +75,7 @@ Top Side:
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2259.JPG)
 
 Bottom Side:
-![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2268.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2270.JPG)
 
 It is relatively difficult to solder the headers at this step. One method is to fill one hole with solder, and push one the header leads through the hole while the solder is hot. Be careful that you are not holding the same header lead under the solder-filled hole, as that will cause burns.
 
