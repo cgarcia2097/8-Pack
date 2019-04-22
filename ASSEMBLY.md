@@ -1,89 +1,144 @@
 # Assembly Guide (WIP Skeleton)
-This doc should go over the basics of how to assemble the 8pack keypad. Order of assembly is important as backtracking  requires knowledge of desoldering.
+This doc should go over the basics of how to assemble the 8pack keypad. There are other compoenents currently on the board like LED strips; please ignore them for the time being as this is a simplified version of the 8pack keypad. 
 
-## Prerequisites
+#### Prerequisites
 * Basic soldering knowledge and experience (through-hole components, orientation)
 * Basic electronics knowledge 
 
-## Plate Assembly (Optional, but must be decided early; assembled first)
-For those that plan to add RGB underglow lighting to their keypad using the RGB plate, please follow these steps.
+#### Terms used frequently in this guide
+* __PCB/Board__ - A printed circuit board. It contains copper tracks in which multiple electronic components are connected together after soldering.
+* __Through-hole__ - part of an exposed copper track where electronic components are attached and soldered.
+* __Leads__ - long metal wires attached to electronic components. Usually found on simple components like resistors, keyswitches and LEDs
+* __Headers__ - A type of connector used to connect components together. Male headers have exposed leads, and female headers have sockets
+* __Pins__ - Connections to a microcontroller's ports, usually attached to other electronic components in order to interact with them.
+* __Joint__ - the place where a component's lead intersects with a through-hole.
 
-### Step 1 - Attach and solder LED strip to plate
-Take notice of the arrows both on the LED strip and the plate. They both must point in the same direction when mounting them.
+#### Tools required
+* Soldering Iron
+* Soldering Wick
+* Soldering Flux
+* Solder
+* Soldering Sponge
+* Soldering fan (Fume Extractor
+* Phillips head screwdriver
 
-(Insert pic here)
-
-After peeling off the back cover, stick the LED strip onto the board, aligning the LED strip's pad with the board's. Make sure the LED strip is aligned to the middle of the board.
-
-(Insert pic here)
-
-In this case my prototype board has oversized plate pads, slightly misaligning with the LED pads. 
-
-(Insert pic here)
-
-Nothing a solder bridge can't fix, but the pad sizing will be fixed in the next revision.
-
-### Step 2 - Attach and solder JST header to plate
-Solder the JST socket onto the plate.
-
-(insert pic here)
+#### Parts in the kit:
+* __Keyswitch/button__ - What your fingers press to interact with your keypad
+* __Plate__ - Where the keyswitches are mounted; also protects the electronic components from direct contact.
+* __Resistor__ - Electronic component used to protect the LED from burning out
+* __LED__ - The lighting on the keypad 
+* __Header__ - A connector used for attaching the Pro Micro
+* __PCB__ - The board responsible for holding the keypad together
+* __Microcontroller__ - The module responsible for reading the switches and flashing the LEDs. 
+* __Standoffs__ - A really long nut with threads on the inside, used to fix/mount boards in place. Usually used with the appropriately-sized screw.
 
 ## Board assembly
-This applies to both the included RGB plate and other 3rd-party cases.
+This section delves into the assembly of the 8pack keypad. Order of assembly is important, as backtracking the steps requires knowledge of desoldering (a difficult process even for experienced hobbyists). There are also sub-steps in the main steps outlined above, which also need to be followed in that order.
 
-### Step 1 - Attach switches to the plate
-With the 8pack logo facing downwards, attach the switches by pushing the keyswitch into the square cutouts. Make sure the keyswitch pins are facing the long edge of the board, and all keyswitches are in the same orientation.
+To avoid confusion, the __board__ refers to the keypad PCB, as the Pro Micro is a microcontroller _board_.
 
-(insert pic here)
+### Step 1 - Attach switches to the 8pack top plate
+With the 8pack logo facing downwards, attach the switches by pushing the keyswitch into the square cutouts. Make sure the keyswitch leads are facing the long edge of the board, and all keyswitches are in the same orientation.
+
+![]()
 
 ### Step 2 - Attach and solder resistors to board
-We want these resistors to fit flush with the board, so firstly, bend the resistor pins 90 degrees from the tips of the resistor like so: 
+We want these resistors to fit flush with the board, so firstly, bend the resistor leads 90 degrees from the tips of the resistor like so: 
 
-(Pic goes here)
+![]()
 
-You should end up with a U-shaped component. Next, insert these resistor leads into the holes marked by these labels:
+You should end up with a U-shaped resistor. Next, insert the resistor leads into the through-holes marked by these labels:
 
-(Insert pic here)
+![]()
 
-The resistors should be flat against the board. It is also helpful to bend the resistor leads at the through-hole to prevent them from falling out during soldering.
+The resistors should be flat against the board. It is also helpful to bend the resistor leads at the joint to prevent them from falling out during soldering.
 
-(Insert pic here)
+![]()
 
 Solder the resistors, and trim the ends afterward. For the uninitiated, you are looking at a cone-shaped mound of solder, not a bubble of solder nor a partially-filled hole.
 
-(insert pic)
+![]()
 
 ### Step 3 - Attach and solder reset button to board
 Find the button label on the board, and insert the switch there.
 
-(insert pic)
+![]()
 
-Flip the board, and solder the exposed button leads on the button. As a reminder, cone-shaped mound of solder.
+Flip the board (top-side up), and solder the exposed button leads on the button. As a reminder, cone-shaped mound of solder.
 
-(insert pic)
+![]()
 
 ### Step 4 - Attach and solder male headers to board
-It is relatively difficult to solder the headers at this step.
+The short end of the headers attach to the bottom side of the board.
 
-### Step 5 
-#### IMPORTANT NOTE: Take note of the switch style being used. Check if your switch is a Cherry-style or is a BOX-style switch. Seperate instructions for each style of switch are included.
+![]()
 
-##### If working with BOX-style switches:
+It is relatively difficult to solder the headers at this step. One method is to fill one hole with solder, and push the header through the hole while the solder is hot. Be careful that you are not holding the same pin header under the solder-filled hole, as that will cause burns.
 
-###### Step 5a - Attach and solder LEDs to board
+In this case I also used a breadboard to keep the headers steady.
 
-###### Step 5b - Attach and solder keypad switches to board
+![]()
 
-##### If working with Cherry-style switches
+Afterwards, trim the long side of the headers. This is easily done by inserting the Pro Micro onto the headers, and trimming just above the Pro Micro's board.
 
-###### Step 5a - Attach and solder keypad switches to board
+![]()
 
-###### Step 5b - Attach and solder LEDs to board
+Remove the Pro Micro afterwards. There are still other steps to do afterward.
 
-### Step 6 - Attach and solder Pro Micro to board
+![]()
 
-### Step 8 - Attach JST Pins to Plate
+### Step 5 - Attach and solder keypad switches to board
+At this step, please check whether all your keyswitches are in the same orientation. 
 
-### Step 8 - Connect the plate to the board using JST cable
+![]()
 
-### Step 9 - Attach bottom plate
+With the keyswitches currently mounted onto the plate, align the keyswitch through-holes with the keyswitch leads and slide the board into the keyswitch leads. 
+
+![]()
+
+At this point, you can see the keyswitch leads sticking out of the keyswitch holes. Solder these pins to the board.
+
+![]()
+
+### Step 6 - Attach and solder LEDs to board
+This step can be done one-by-one per LED, or on all LEDs at once. 
+
+There is a circular slot on the keyswitch where an LED can be inserted. Insert them through here.
+
+![]()
+
+Make sure on the other side of the board, that the longer LED lead is on the circular pad; the shorter LED lead is on the square pad.
+
+![]()
+
+Bend the leads in the joint area to prevent it from falling out. Do this for the other LEDs you have attached (if any).
+
+![]()
+
+Solder the joint area, and trim the excess leads afterwards. Repeat for any other LEDs on the board.
+
+![]()
+
+### Step 7 - Attach and solder Pro Micro to board
+With the USB port facing away from the board and in the same direction as the `USB` label, insert the Pro Micro into the headers you trimmed earlier. Make sure it is as flush as possible.
+
+![]()
+
+Once finished, add solder on top of the joints to connect the Pro Micro's pins to the rest of the keypad
+
+![]()
+
+Head over to the  ![PROGRAMMING](PROGRAMMING.md) section after completing this step.
+
+### Step 8 - Attach bottom plate
+Perform this step after completing the ![PROGRAMMING](PROGRAMMING.md) section. Attach the M3 standoffs to the top plate using the provided M3 screws.
+
+![]()
+
+Once done, align the bottom plate holes with the other end of the standoffs. Attach the bottom plate once aligned.
+
+![]()
+
+Voila, you now have a functional keypad.
+
+![]()
