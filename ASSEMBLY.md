@@ -114,9 +114,7 @@ Remove the Pro Micro afterwards. There are still other steps to do afterward.
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/IMG_2286.JPG)
 
 ### Step 6 - Attach and solder keypad switches to board
-At this step, please check whether all your keyswitches are in the same orientation. 
-
-![]()
+At this step, please check whether all your keyswitches are in the same orientation. If not, refer to Step 1 after popping out the buttons. 
 
 With the keyswitches currently mounted onto the plate, align the keyswitch through-holes with the keyswitch leads and slide the board into the keyswitch leads. 
 
@@ -165,12 +163,12 @@ Perform this step after completing the ![PROGRAMMING](PROGRAMMING.md) section.
 
 Attach the M3 standoffs to the top plate using the provided M3 screws.
 
-![]()
+![Need photos here]()
 
 Once done, align the bottom plate holes with the other end of the standoffs. Attach the bottom plate once aligned.
 
-![]()
+![Need Photos here]()
 
 Voila, you now have a functional keypad.
 
-![]()
+![Need Photos Here]()
