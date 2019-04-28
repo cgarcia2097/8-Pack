@@ -23,8 +23,8 @@ This doc should go over the basics of how to assemble the 8pack keypad. If the p
 * Phillips head screwdriver
 
 #### Parts in the kit:
-![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0123.JPG)
-* __Keyswitch/button__ - What your fingers press to interact with your keypad
+* __Keyswitch/button__ - What the microcontroller checks to send keypresses
+* __Keycap__ - What your fingers press to interact with your keypad
 * __Plate__ - Where the keyswitches are mounted; also protects the electronic components from direct contact.
 * __Resistor__ - Electronic component used to protect the LED from burning out
 * __LED__ - The lighting on the keypad 
