@@ -6,7 +6,7 @@ This guide will go through the method of flashing default firmware into the 8pac
 Download the Arduino IDE ![here](https://www.arduino.cc/en/Main/Software) and install it to your machine.
 
 ### Download the Sparkfun Board Drivers
-In the Arduino IDE, open `File`-> `Preferences`. In the `Additional Boards Manager URLs` box, paste this link inside: `https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json`
+In the Arduino IDE, open `File`-> `Preferences`. In the `Additional Boards Manager URLs` box, paste this link inside: ```https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json```
 
 Once that's done, open `Tools`->`Board`->`Boards Manager`. In the search box, type `sparkfun` and click `Install` on the 'Sparkfun AVR Boards' package. 
 
