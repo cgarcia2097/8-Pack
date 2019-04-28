@@ -38,7 +38,7 @@ Open up a text editor or an office app, and press the keys. If letters are appea
 This section is for those who wish to extract more functionality out of the keypad.
 
 ### Board Layout 
-![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.1/keypad/schematic.pdf)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.1/keypad/canvas.png)
 
 The board layout is a simple layout. Pins A3 to 10 on the Pro Micro (Arduino pin numbers) correspond to SW1 to SW8 on the keypad, while pins 2 to 9 correspond to the LEDs on SW1 to SW8 respectively. The keyswitches are wired directly to `GND`, requiring the use of `INPUT_PULLUP` when setting up the pins in Arduino.
 
