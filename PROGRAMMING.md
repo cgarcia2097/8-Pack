@@ -44,8 +44,133 @@ The board layout is a simple layout. Pins A3 to 10 on the Pro Micro (Arduino pin
 
 The buttons can be accessed through Arduino's `digitalRead()` or using Bounce2's `button.fell()`/`button.rose()` (detecting falling and rising edges). The LEDs can be accessed and programmed though `digitalWrite()`.
 
-### Multiple Macros
-TODO
+### Multiple-key Macros
+The default keypad code uses `for-loops` and `arrays` to scan through the keys, send keypresses and blink the corresponding LED. While the code is efficient and small, this limits the functionality of the default firmware.
+
+For now, one can set conditions on each button manually. For example, if we want to press `A`, `S`, `D` and `F` all at once using SW1, we must scan SW1 first.
+
+* Using `digitalRead()`
+```
+// When button is pressed
+if(keyArray[0] == 0){...}
+
+// When button is released
+else{...}
+```
+
+* Using `fell()`/`rose()`
+
+```
+// When button is pressed
+if(button[0].fell()){...}
+
+// When button is released
+if(button[0].rose()){...}
+```
+
+To send a keypress to USB, use the `Keyboard.send()` function, with the `A` character inside the function.
+
+* Using `digitalRead()`
+```
+// When button is pressed
+if(keyArray[0] == 0){
+  Keyboard.press('A');
+}
+
+// When button is released
+else{...}
+```
+
+* Using `fell()`/`rose()`
+
+```
+// When button is pressed
+if(button[0].fell()){
+  Keyboard.press('A');
+}
+
+// When button is released
+if(button[0].rose()){...}
+```
+
+You must also release `A` or else the host PC will think `A` is held down indefinitely.
+
+* Using `digitalRead()`
+```
+// When button is pressed
+if(keyArray[0] == 0){
+  Keyboard.press('A');
+}
+
+// When button is released
+else{  
+  Keyboard.release('A');
+}
+```
+
+* Using `fell()`/`rose()`
+
+```
+// When button is pressed
+if(button[0].fell()){
+  Keyboard.press('A');
+}
+
+// When button is released
+if(button[0].rose()){
+  Keyboard.release('A');
+}
+```
+Now we repeat for the rest of the letters we want to send. The characters must be released in the reverse order they were pressed.
+
+* Using `digitalRead()`
+```
+// When button is pressed
+if(keyArray[0] == 0){
+  Keyboard.press('A');
+  Keyboard.press('S');
+  Keyboard.press('D');
+  Keyboard.press('F');
+}
+
+// When button is released
+else{  
+  Keyboard.release('F');
+  Keyboard.release('D');
+  Keyboard.release('S');
+  Keyboard.release('A');
+}
+```
+
+* Using `fell()`/`rose()`
+
+```
+// When button is pressed
+if(button[0].fell()){
+  Keyboard.press('A');
+  Keyboard.press('S');
+  Keyboard.press('D');
+  Keyboard.press('F');
+ }
+
+// When button is released
+if(button[0].rose()){
+  Keyboard.release('F');
+  Keyboard.release('D');
+  Keyboard.release('S');
+  Keyboard.release('A');
+}
+```
+
+Lastly, if you would like to use modifiers like `CTRL`, `ALT`, etc., you will need to use Arduino-defined keyboard macros, which can be found ![here](https://www.arduino.cc/en/Reference/KeyboardModifiers). It is then called like this:
+
+```
+// Pressing the modifier
+Keyboard.press(KEY_MODIFIER);
+
+// Releasing the modifier
+Keyboard.release(KEY_MODIFIER);
+```
 
 ### TMK/QMK support
-TODO
+TBA
