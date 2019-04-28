@@ -98,7 +98,7 @@ At this step, please check whether all your keyswitches are in the same orientat
 With the keyswitches currently mounted onto the plate, align the keyswitch through-holes with the keyswitch leads and slide the board into the keyswitch leads. 
 
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0199.JPG)
-![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0199.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0200.JPG)
 
 At this point, you can see the keyswitch leads sticking out of the keyswitch holes. Solder these pins to the board.
 
