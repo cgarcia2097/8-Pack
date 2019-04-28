@@ -25,8 +25,6 @@ Once downloaded, open the Arduino IDE. Open `Sketch`->`Include Library`->`Manage
 ### Copy code from the repository
 Go ![here](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Arduino%20Code/8-Pack.ino) to open the keypad code. Copy the code and paste it in the Arduino text editor.
 
-This is also the step to consider making code changes to implement different key macros.
-
 ### Compile the code
 On the top-left corner, hit the `Compile` button to compile the keypad code. If `Done compiling` appears, then you have successfully created keypad firmware.
 
