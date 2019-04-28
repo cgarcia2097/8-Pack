@@ -135,12 +135,12 @@ Add solder on top of the joints to connect the Pro Micro's pins to the rest of t
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0236.JPG)
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0238.JPG)
 
-## Step 8 - Program the Pro Micro
+### Step 8 - Program the Pro Micro
 
 Head over to the  ![PROGRAMMING](PROGRAMMING.md) section.
 
 ### Step 9 - Attach bottom plate and keycaps
-Perform this step after completing the ![PROGRAMMING](PROGRAMMING.md) section. 
+Perform this step after completing ![Step 8](PROGRAMMING.md). 
 
 Attach the M3 standoffs to the bottom plate using the provided M3 screws.
 
