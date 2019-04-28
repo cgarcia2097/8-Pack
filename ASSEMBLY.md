@@ -13,14 +13,13 @@ This doc should go over the basics of how to assemble the 8pack keypad. If the p
 * __Pins__ - Connections to a microcontroller's ports, usually attached to other electronic components in order to interact with them.
 * __Joint__ - the place where a component's lead intersects with a through-hole.
 
-#### Tools required
-* Soldering iron
-* Desoldering pump and/or solder wick
-* Soldering flux
-* Solder
-* Soldering sponge
-* Soldering fan (Fume Extractor)
-* Phillips head screwdriver
+#### Soldering Tools
+* __Soldering Iron__ - The tool that melts solder and joins electrical somponents together
+* __Desoldering pump and/or solder wick__ - Used to remove solder from a joint for fixing small mistakes 
+* __Soldering flux__ - A paste that helps solder flow more easily; usually used in desoldering
+* __Solder__ - The alloy used in joining electrical components; melts under a soldering iron.
+* __Soldering sponge__ - Used to clean the tip of a soldering iron
+* __Soldering fan (Fume Extractor)__ - Used to remove smoke from the soldering process. 
 
 #### Parts in the kit:
 * __Keyswitch/button__ - What the microcontroller checks to send keypresses
