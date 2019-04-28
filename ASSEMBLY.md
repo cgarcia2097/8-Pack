@@ -44,7 +44,12 @@ With the 8pack logo facing downwards, attach the switches by pushing the keyswit
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0134.JPG)
 
 ### Step 2 - Attach and solder resistors to board
-We want these resistors to fit flush with the board, so firstly, bend the resistor leads 90 degrees from the tips of the resistor. You should end up with a U-shaped resistor. Next, insert the resistor leads into the through-holes marked by the `R` labels:
+We want these resistors to fit flush with the board, so firstly, bend the resistor leads 90 degrees from the tips of the resistor. You should end up with a U-shaped resistor. 
+
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0143.JPG)
+![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0144.JPG)
+
+Next, insert the resistor leads into the through-holes marked by the `R` labels:
 
 ![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Keypad/Photos/No%20RGB/IMG_0146.JPG)
 
