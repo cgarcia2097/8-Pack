@@ -1,4 +1,4 @@
-# Assembly Guide (WIP Skeleton)
+# Assembly Guide (WIP)
 This doc should go over the basics of how to assemble the 8pack keypad. 
 
 #### Prerequisites
@@ -85,7 +85,9 @@ Now repeat the above steps for the other LED strip:
 ![img](./images/IMG_2536.JPG)
 
 ### Step 2.1.6
-Now take the three wires, strip one end for each color, and solder to the pads shown below. You may also twist the wire to your heart's content.
+Now take the three wires, strip one end for each color, and solder to the pads shown below. The red wire must be soldered to +5V, the yellow to Din, and the black wire to GND.
+
+You may also twist the wire to your heart's content. 
 
 ![img](./images/IMG_2538.JPG)
 
@@ -134,34 +136,95 @@ Long side faces away from it:
 ![img](./images/IMG_2549.JPG)
 ![img](./images/IMG_2550.JPG)
 
-## Step 3.4 - Attach LEDs (For backlighting use, skip if unneeded)
+## Step 3.3 - Attach LEDs (For backlighting use, skip if unneeded)
 Depending on your style of switch, the order of assembly will differ.
 
 ### Using a BOX-style switch
-A BOX switch is characterized by a cross inside a box, as shown here:
+A BOX switch is characterized by a cross pattern inside a box, as shown here:
 
 ![img](./images/IMG_2577.JPG)
 
 In this case, the LEDs sit underneath the keyswitch. Therefore one must attach the LEDs now.
 
-#### Step 3.4.1
+#### Step 3.3.1
 Thread the LEDs through their mounting holes. The orientation matters this time, so make sure the longer lead threads through the circular hole, while the shorter lead threads through the square hole. Sparkfun has guide about LED orientation which you can read [here](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all):
 
 ![img](./images/IMG_2551.JPG)
 
-#### Step 3.4.2
+#### Step 3.3.2
 Solder the LEDs and trim their leads:
 
 ![img](./images/IMG_2558.JPG)
 
 ### Using a Cherry-style switch
+A Cherry-style switch is characterized by a cross pattern only.
 
+![img](./images/IMG_2558.JPG)
+
+In this case the switch sits on top of the keyswitch. Steps 3.3.1 to 3.3.2 must wait after the top plate has been joined with the PCB.
 
 ## Step 3.4 - Attach reset button
+### Step 3.4.1
+Attach the pushbutton as shown down below:
+
+![img](./images/IMG_2561.JPG)
+![img](./images/IMG_2562.JPG)
+
+### Step 3.4.2
+Solder the pushbutton to the PCB
+
+![img](./images/IMG_2563.JPG)
 
 # Step 4 - Join top plate and PCB together
+## Step 4.1 - Solder the other end of the top plate wire - (For underglow use. skip if unneeded)
+### Step 4.1.1
+Strip the other end of the wires.
+
+### Step 4.1.2
+Attach the wires to their designated locations
+* Red to VCC
+* Black to GND
+* Yellow to RX
+
+![img](./images/IMG_2564.JPG)
+![img](./images/IMG_2565.JPG)
+
+### Step 4.1.3
+Solder and trim the wires in place:
+![img](./images/IMG_2566.JPG)
+
+## Step 4.2 - Attach switches to PCB
+Align the switch pins to the PCB holes, press and hold the PCB down and solder the switches in place:
+
+![img](./images/IMG_2567.JPG)
 
 # Step 5 - Attach the microcontroller
+## Step 5.1 
+Slot the Pro Micro through the headers
+
+![img](./images/IMG_0228.JPG)
+
+## Step 5.2 
+Trim the headers
+
+![img](./images/IMG_0230.JPG)
+![img](./images/IMG_0231.JPG)
+
+## Step 5.3
+Solder the headers as shown below
+
+![img](./images/IMG_0236.JPG)
+![img](./images/IMG_0237.JPG)
+
+## Caution: 
+
+Depending on the revision of the PCB used, the orientation differs. As such, Ver. 1.2 and lower use this orientation:
+
+![img](./images/IMG_0238.JPG)
+
+While Ver. 1.3 and above use this orientation: 
+
+![img](./images/IMG_2573.JPG)
 
 # Step 6 - Program the board
 
