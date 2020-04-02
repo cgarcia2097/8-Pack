@@ -199,6 +199,17 @@ Align the switch pins to the PCB holes, press and hold the PCB down and solder t
 ![img](./images/IMG_2567.JPG)
 
 # Step 5 - Attach the microcontroller
+
+## Caution: 
+
+Depending on the revision of the PCB used, the orientation differs. As such, Ver. 1.2 and lower use this orientation (USB port faces away form PCB and south relative to the 8pack logo):
+
+![img](./images/IMG_0238.JPG)
+
+While Ver. 1.3 and above use this orientation (USB port faces towards the PCB and north relative to the 8pack logo):
+
+![img](./images/IMG_2573.JPG)
+
 ## Step 5.1 
 Slot the Pro Micro through the headers
 
@@ -216,16 +227,13 @@ Solder the headers as shown below
 ![img](./images/IMG_0236.JPG)
 ![img](./images/IMG_0237.JPG)
 
-## Caution: 
-
-Depending on the revision of the PCB used, the orientation differs. As such, Ver. 1.2 and lower use this orientation:
-
-![img](./images/IMG_0238.JPG)
-
-While Ver. 1.3 and above use this orientation: 
-
-![img](./images/IMG_2573.JPG)
-
 # Step 6 - Program the board
+Head over to the [Programming section](./PROGRAMMING.md) for this section of the guide.
 
 # Step 7 - Attach the bottom plates
+With the included M3 standoffs and bolts, attach the bottom plate to the top plate
+
+![img](./images/IMG_2575.JPG)
+![img](./images/IMG_2577.JPG)
+
+Voila, you now have a working keypad, ready for a set of keycaps.
