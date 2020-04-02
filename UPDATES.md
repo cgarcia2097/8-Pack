@@ -1,3 +1,19 @@
+# Update 04/02/2020
+Whew, it's been almost a year. Finally got back into updating the repos as usual
+
+## Added to the repo
+* Updated [assembly guide](./ASSEMBLY.md)
+* Updated directory structure for code, keypad and plate files
+
+## Removed from the repo
+* Redundant images and links
+* KiCAD symbols and footprints (To be released as a seperate repository)
+* Old assembly guide
+
+## TODO
+* Updated programming guide
+* Ordering guide
+
 # Update 04/20/2019
 Did some repo cleaning and added Ver. 1.2 of the keypad PCB. I am currently considering creating seperate directories for the plate and keypad PCBs sice they both have their own revisions. I have uploaded assembly images involving the Ver. 1.2 PCB, and will be added to the assembly guide.
 
