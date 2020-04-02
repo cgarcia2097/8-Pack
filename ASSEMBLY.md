@@ -27,6 +27,8 @@ This doc should go over the basics of how to assemble the 8pack keypad.
 ## Board assembly
 This section delves into the assembly of the 8pack keypad, in chronological order. Order of assembly is important, as backtracking the steps requires knowledge of desoldering (a difficult process even for experienced hobbyists). There are also sub-steps in the main steps outlined above, which also need to be followed in that order.
 
+DISCLAIMER: The photos used for this guide both show pictures from Ver 1.2 and Ver 1.4. The overall process should not be any different
+
 # Step 1 - Inspect the parts
 
 Make sure all parts listed above are present.
@@ -109,6 +111,16 @@ Thread each resistor through the markings indicated as `R1` to `R8`. Orientation
 
 ![img](./images/IMG_2543.JPG)
 ![img](./images/IMG_2544.JPG)
+
+It might be useful to bend the leads outward to prevent the resistors from falling out later
+
+![img](./images/IMG_0152.JPG)
+
+### Step 3.1.3
+Solder and trim the resistor leads
+
+![img](./images/IMG_0156.JPG)
+![img](./images/IMG_2546.JPG)
 
 
 # Step 4 - Join top plate and PCB together
