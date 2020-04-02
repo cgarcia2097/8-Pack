@@ -1,0 +1,80 @@
+
+(rules PCB 8_key_simple
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 830)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 152.6)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-1]_508:304.8_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_508:304.8_um" "Via[0-1]_508:304.8_um" default
+  )
+  (via 
+    "Via[0-1]_508:304.8_um-kicad_default" "Via[0-1]_508:304.8_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_508:304.8_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_508:304.8_um-kicad_default"
+  )
+  (class default
+    "@:no_net_0" "@:no_net_1"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    VIN GND RESET VCC KEY1 KEY2 KEY3 KEY4
+    KEY5 KEY6 KEY7 KEY8 LED8 LED7 LED6 LED5
+    LED4 LED3 LED2 LED1 RX TX "Net-(R1-PadP$2)" "Net-(R2-PadP$2)"
+    "Net-(R3-PadP$2)" "Net-(R4-PadP$2)" "Net-(R5-PadP$2)" "Net-(R6-PadP$2)" "Net-(R7-PadP$2)" "Net-(R8-PadP$2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

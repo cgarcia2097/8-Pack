@@ -1,0 +1,22 @@
+Drill report for /home/animeman/Documents/KiCAD/projects/Keyboards/8-Pack/neopixel_plates/Ver 1.2/8-key-top-plate-1.2.kicad_pcb
+Created on Sat 08 Jun 2019 03:54:04 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '8-key-top-plate-1.2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  3.20mm  0.126"  (4 holes)
+
+    Total plated holes count 4
+
+
+Drill file '8-key-top-plate-1.2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

@@ -1,0 +1,29 @@
+Drill report for /home/animeman/Documents/KiCAD/projects/Keyboards/8-Pack/keypad/8keysimplev5/8_key_simple.kicad_pcb
+Created on Sat 08 Jun 2019 04:04:58 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '8_key_simple-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (2 holes)
+    T2  0.90mm  0.035"  (16 holes)
+    T3  0.99mm  0.039"  (16 holes)
+    T4  1.02mm  0.040"  (30 holes)
+    T5  1.20mm  0.047"  (2 holes)
+    T6  1.50mm  0.059"  (32 holes)
+
+    Total plated holes count 98
+
+
+Drill file '8_key_simple-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.70mm  0.067"  (16 holes)
+    T2  3.99mm  0.157"  (8 holes)
+
+    Total unplated holes count 24

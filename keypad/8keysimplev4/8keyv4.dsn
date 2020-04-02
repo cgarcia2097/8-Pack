@@ -1,0 +1,407 @@
+(pcb "/home/animeman/Documents/KiCAD/projects/Keyboards/8-Pack/8keysimplev4/8keyv4.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.1-8be2ce7~80~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  194195 -66019.2  194383 -66076.1  194556 -66168.5  194707 -66292.9
+            194831 -66444.4  194924 -66617.3  194981 -66804.9  195000 -67000
+            195000 -104000  194981 -104195  194924 -104383  194831 -104556
+            194707 -104707  194556 -104831  194383 -104924  194195 -104981
+            194000 -105000  119000 -105000  118805 -104981  118617 -104924
+            118444 -104831  118293 -104707  118169 -104556  118076 -104383
+            118019 -104195  118000 -104000  118000 -67000  118019 -66804.9
+            118076 -66617.3  118169 -66444.4  118293 -66292.9  118444 -66168.5
+            118617 -66076.1  118805 -66019.2  119000 -66000  194000 -66000
+            194195 -66019.2)
+    )
+    (plane GND (polygon F.Cu 0  118000 -67000  119000 -66000  194000 -66000  195000 -67000
+            195000 -104000  194000 -105000  119000 -105000  118000 -104000
+            118000 -67000))
+    (plane GND (polygon B.Cu 0  118000 -104000  119000 -105000  194000 -105000  195000 -104000
+            195000 -67000  194000 -66000  119000 -66000  118000 -67000  118000 -104000))
+    (via "Via[0-1]_508:254_um")
+    (rule
+      (width 254)
+      (clearance 152.5)
+      (clearance 152.5 (type default_smd))
+      (clearance 38.1 (type smd_smd))
+    )
+  )
+  (placement
+    (component Boards:SPARKFUN_PRO_MICRO
+      (place B1 147000 -90500 front 180 (PN SPARKFUN_PRO_MICRO))
+    )
+    (component "libkeyswitch-1_0_0:MX_LED"
+      (place SW5 128000 -76000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW1 128000 -95000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW2 147000 -95000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW8 185000 -76000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+    )
+    (component "libkeyswitch-1_0_0:MX_LED::1"
+      (place SW6 147000 -76000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW3 166000 -95000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW4 185000 -95000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+      (place SW7 166000 -76000 front 0 (PN "MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY"))
+    )
+    (component Connectors:1X06
+      (place J1 136750 -102000 back 270 (PN CONN_06NO_SILK_FEMALE_PTH))
+    )
+    (component "Resistors:AXIAL-0.3"
+      (place R1 128000 -87000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R2 147000 -87000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R4 185000 -87000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R5 128000 -68000 front 0 (PN "RESISTORAXIAL-0.3"))
+    )
+    (component "Resistors:AXIAL-0.3::1"
+      (place R3 166000 -87000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R6 147000 -68000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R7 166000 -68000 front 0 (PN "RESISTORAXIAL-0.3"))
+      (place R8 185000 -68000 front 0 (PN "RESISTORAXIAL-0.3"))
+    )
+    (component Switches:TACTILE_SWITCH_PTH_6.0MM
+      (place S1 175500 -85500 back 90 (PN "MOMENTARY-SWITCH-SPST-PTH-6.0MM"))
+    )
+  )
+  (library
+    (image Boards:SPARKFUN_PRO_MICRO
+      (outline (path signal 127  -8890 16510  -8890 -16510))
+      (outline (path signal 127  -8890 -16510  8890 -16510))
+      (outline (path signal 127  8890 -16510  8890 16510))
+      (outline (path signal 127  8890 16510  -8890 16510))
+      (outline (path signal 127  -3810 16510  -3810 17780))
+      (outline (path signal 127  -3810 17780  3810 17780))
+      (outline (path signal 127  3810 17780  3810 16510))
+      (pin Round[A]Pad_1879.6_um 1 -7620 12700)
+      (pin Round[A]Pad_1879.6_um 2 -7620 10160)
+      (pin Round[A]Pad_1879.6_um 3 -7620 7620)
+      (pin Round[A]Pad_1879.6_um 4 -7620 5080)
+      (pin Round[A]Pad_1879.6_um 5 -7620 2540)
+      (pin Round[A]Pad_1879.6_um 6 -7620 0)
+      (pin Round[A]Pad_1879.6_um 7 -7620 -2540)
+      (pin Round[A]Pad_1879.6_um 8 -7620 -5080)
+      (pin Round[A]Pad_1879.6_um 9 -7620 -7620)
+      (pin Round[A]Pad_1879.6_um 10 -7620 -10160)
+      (pin Round[A]Pad_1879.6_um 11 -7620 -12700)
+      (pin Round[A]Pad_1879.6_um 12 -7620 -15240)
+      (pin Round[A]Pad_1879.6_um 13 7620 -15240)
+      (pin Round[A]Pad_1879.6_um 14 7620 -12700)
+      (pin Round[A]Pad_1879.6_um 15 7620 -10160)
+      (pin Round[A]Pad_1879.6_um 16 7620 -7620)
+      (pin Round[A]Pad_1879.6_um 17 7620 -5080)
+      (pin Round[A]Pad_1879.6_um 18 7620 -2540)
+      (pin Round[A]Pad_1879.6_um 19 7620 0)
+      (pin Round[A]Pad_1879.6_um 20 7620 2540)
+      (pin Round[A]Pad_1879.6_um 21 7620 5080)
+      (pin Round[A]Pad_1879.6_um 22 7620 7620)
+      (pin Round[A]Pad_1879.6_um 23 7620 10160)
+      (pin Round[A]Pad_1879.6_um 24 7620 12700)
+    )
+    (image "libkeyswitch-1_0_0:MX_LED"
+      (outline (path signal 150  -6000 -6000  -6000 -4000))
+      (outline (path signal 150  -4000 -6000  -6000 -6000))
+      (outline (path signal 150  6000 -6000  4000 -6000))
+      (outline (path signal 150  6000 -4000  6000 -6000))
+      (outline (path signal 150  6000 6000  6000 4000))
+      (outline (path signal 150  4000 6000  6000 6000))
+      (outline (path signal 150  -6000 6000  -4000 6000))
+      (outline (path signal 150  -6000 4000  -6000 6000))
+      (outline (path signal 150  7000 7000  -7000 7000))
+      (outline (path signal 150  7000 -7000  7000 7000))
+      (outline (path signal 150  -7000 -7000  7000 -7000))
+      (outline (path signal 150  -7000 7000  -7000 -7000))
+      (outline (path signal 150  -9000 9000  9000 9000))
+      (outline (path signal 150  9000 9000  9000 -9000))
+      (outline (path signal 150  9000 -9000  -9000 -9000))
+      (outline (path signal 150  -9000 -9000  -9000 9000))
+      (pin Round[A]Pad_2540_um S1 -3810 2540)
+      (pin Round[A]Pad_2540_um S2 2540 5080)
+      (pin Rect[A]Pad_2032x2032_um K 1270 -5080)
+      (pin Round[A]Pad_2032_um A -1270 -5080)
+      (keepout "" (circle F.Cu 1701.8 5080 0))
+      (keepout "" (circle B.Cu 1701.8 5080 0))
+      (keepout "" (circle F.Cu 1701.8 -5080 0))
+      (keepout "" (circle B.Cu 1701.8 -5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
+    (image "libkeyswitch-1_0_0:MX_LED::1"
+      (outline (path signal 150  -9000 -9000  -9000 9000))
+      (outline (path signal 150  9000 -9000  -9000 -9000))
+      (outline (path signal 150  9000 9000  9000 -9000))
+      (outline (path signal 150  -9000 9000  9000 9000))
+      (outline (path signal 150  -7000 7000  -7000 -7000))
+      (outline (path signal 150  -7000 -7000  7000 -7000))
+      (outline (path signal 150  7000 -7000  7000 7000))
+      (outline (path signal 150  7000 7000  -7000 7000))
+      (outline (path signal 150  -6000 4000  -6000 6000))
+      (outline (path signal 150  -6000 6000  -4000 6000))
+      (outline (path signal 150  4000 6000  6000 6000))
+      (outline (path signal 150  6000 6000  6000 4000))
+      (outline (path signal 150  6000 -4000  6000 -6000))
+      (outline (path signal 150  6000 -6000  4000 -6000))
+      (outline (path signal 150  -4000 -6000  -6000 -6000))
+      (outline (path signal 150  -6000 -6000  -6000 -4000))
+      (pin Round[A]Pad_2032_um A -1270 -5080)
+      (pin Rect[A]Pad_2032x2032_um K 1270 -5080)
+      (pin Round[A]Pad_2540_um S2 2540 5080)
+      (pin Round[A]Pad_2540_um S1 -3810 2540)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1701.8 -5080 0))
+      (keepout "" (circle B.Cu 1701.8 -5080 0))
+      (keepout "" (circle F.Cu 1701.8 5080 0))
+      (keepout "" (circle B.Cu 1701.8 5080 0))
+    )
+    (image Connectors:1X06
+      (outline (path signal 203.2  11430 635  12065 1270))
+      (outline (path signal 203.2  12065 1270  13335 1270))
+      (outline (path signal 203.2  13335 1270  13970 635))
+      (outline (path signal 203.2  13970 -635  13335 -1270))
+      (outline (path signal 203.2  13335 -1270  12065 -1270))
+      (outline (path signal 203.2  12065 -1270  11430 -635))
+      (outline (path signal 203.2  6985 1270  8255 1270))
+      (outline (path signal 203.2  8255 1270  8890 635))
+      (outline (path signal 203.2  8890 -635  8255 -1270))
+      (outline (path signal 203.2  8890 635  9525 1270))
+      (outline (path signal 203.2  9525 1270  10795 1270))
+      (outline (path signal 203.2  10795 1270  11430 635))
+      (outline (path signal 203.2  11430 -635  10795 -1270))
+      (outline (path signal 203.2  10795 -1270  9525 -1270))
+      (outline (path signal 203.2  9525 -1270  8890 -635))
+      (outline (path signal 203.2  3810 635  4445 1270))
+      (outline (path signal 203.2  4445 1270  5715 1270))
+      (outline (path signal 203.2  5715 1270  6350 635))
+      (outline (path signal 203.2  6350 -635  5715 -1270))
+      (outline (path signal 203.2  5715 -1270  4445 -1270))
+      (outline (path signal 203.2  4445 -1270  3810 -635))
+      (outline (path signal 203.2  6985 1270  6350 635))
+      (outline (path signal 203.2  6350 -635  6985 -1270))
+      (outline (path signal 203.2  8255 -1270  6985 -1270))
+      (outline (path signal 203.2  -635 1270  635 1270))
+      (outline (path signal 203.2  635 1270  1270 635))
+      (outline (path signal 203.2  1270 -635  635 -1270))
+      (outline (path signal 203.2  1270 635  1905 1270))
+      (outline (path signal 203.2  1905 1270  3175 1270))
+      (outline (path signal 203.2  3175 1270  3810 635))
+      (outline (path signal 203.2  3810 -635  3175 -1270))
+      (outline (path signal 203.2  3175 -1270  1905 -1270))
+      (outline (path signal 203.2  1905 -1270  1270 -635))
+      (outline (path signal 203.2  -1270 635  -1270 -635))
+      (outline (path signal 203.2  -635 1270  -1270 635))
+      (outline (path signal 203.2  -1270 -635  -635 -1270))
+      (outline (path signal 203.2  635 -1270  -635 -1270))
+      (outline (path signal 203.2  13970 635  13970 -635))
+      (pin Round[A]Pad_1879.6_um 1 0 0)
+      (pin Round[A]Pad_1879.6_um 2 2540 0)
+      (pin Round[A]Pad_1879.6_um 3 5080 0)
+      (pin Round[A]Pad_1879.6_um 4 7620 0)
+      (pin Round[A]Pad_1879.6_um 5 10160 0)
+      (pin Round[A]Pad_1879.6_um 6 12700 0)
+    )
+    (image "Resistors:AXIAL-0.3"
+      (outline (path signal 203.2  -2540 762  2540 762))
+      (outline (path signal 203.2  2540 762  2540 0))
+      (outline (path signal 203.2  2540 0  2540 -762))
+      (outline (path signal 203.2  2540 -762  -2540 -762))
+      (outline (path signal 203.2  -2540 -762  -2540 0))
+      (outline (path signal 203.2  -2540 0  -2540 762))
+      (outline (path signal 203.2  2540 0  2794 0))
+      (outline (path signal 203.2  -2540 0  -2794 0))
+      (pin Round[A]Pad_1879.6_um P$1 -3810 0)
+      (pin Round[A]Pad_1879.6_um P$2 3810 0)
+    )
+    (image "Resistors:AXIAL-0.3::1"
+      (outline (path signal 203.2  -2540 0  -2794 0))
+      (outline (path signal 203.2  2540 0  2794 0))
+      (outline (path signal 203.2  -2540 0  -2540 762))
+      (outline (path signal 203.2  -2540 -762  -2540 0))
+      (outline (path signal 203.2  2540 -762  -2540 -762))
+      (outline (path signal 203.2  2540 0  2540 -762))
+      (outline (path signal 203.2  2540 762  2540 0))
+      (outline (path signal 203.2  -2540 762  2540 762))
+      (pin Round[A]Pad_1879.6_um P$2 3810 0)
+      (pin Round[A]Pad_1879.6_um P$1 -3810 0)
+    )
+    (image Switches:TACTILE_SWITCH_PTH_6.0MM
+      (outline (path signal 203.2  3048 1016  3048 2540))
+      (outline (path signal 203.2  3048 2540  2540 3048))
+      (outline (path signal 203.2  2540 -3048  3048 -2540))
+      (outline (path signal 203.2  3048 -2540  3048 -1016))
+      (outline (path signal 203.2  -2540 3048  -3048 2540))
+      (outline (path signal 203.2  -3048 2540  -3048 1016))
+      (outline (path signal 203.2  -2540 -3048  -3048 -2540))
+      (outline (path signal 203.2  -3048 -2540  -3048 -1016))
+      (outline (path signal 203.2  2540 -3048  2159 -3048))
+      (outline (path signal 203.2  -2540 -3048  -2159 -3048))
+      (outline (path signal 203.2  -2540 3048  -2159 3048))
+      (outline (path signal 203.2  2540 3048  2159 3048))
+      (outline (path signal 203.2  2159 3048  -2159 3048))
+      (outline (path signal 203.2  -2159 -3048  2159 -3048))
+      (outline (path signal 203.2  3048 995.68  3048 -1016))
+      (outline (path signal 203.2  -3048 1026.16  -3048 -1016))
+      (outline (path signal 203.2  -2540 1270  -2540 508))
+      (outline (path signal 203.2  -2540 -508  -2540 -1270))
+      (outline (path signal 203.2  -2540 508  -2159 -381))
+      (outline (path signal 203.2  1778 0  1699.01 -524.075  1469.05 -1001.58  1108.57 -1390.1
+            649.576 -1655.09  132.87 -1773.03  -395.642 -1733.42  -889 -1539.79
+            -1303.37 -1209.35  -1601.92 -771.445  -1758.14 -264.997  -1758.14 264.997
+            -1601.92 771.445  -1303.37 1209.35  -889 1539.79  -395.642 1733.42
+            132.87 1773.03  649.576 1655.09  1108.57 1390.1  1469.05 1001.58
+            1699.01 524.075  1778 0))
+      (pin Round[A]Pad_1879.6_um 1 -3251.2 2260.6)
+      (pin Round[A]Pad_1879.6_um 2 3251.2 2260.6)
+      (pin Round[A]Pad_1879.6_um 3 -3251.2 -2260.6)
+      (pin Round[A]Pad_1879.6_um 4 3251.2 -2260.6)
+    )
+    (padstack Round[A]Pad_1879.6_um
+      (shape (circle F.Cu 1879.6))
+      (shape (circle B.Cu 1879.6))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2032_um
+      (shape (circle F.Cu 2032))
+      (shape (circle B.Cu 2032))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2540_um
+      (shape (circle F.Cu 2540))
+      (shape (circle B.Cu 2540))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x2032_um
+      (shape (rect F.Cu -1016 -1016 1016 1016))
+      (shape (rect B.Cu -1016 -1016 1016 1016))
+      (attach off)
+    )
+    (padstack "Via[0-1]_508:254_um"
+      (shape (circle F.Cu 508))
+      (shape (circle B.Cu 508))
+      (attach off)
+    )
+  )
+  (network
+    (net TX
+      (pins B1-1 J1-3)
+    )
+    (net RX
+      (pins B1-2 J1-4)
+    )
+    (net GND
+      (pins B1-3 B1-4 B1-23 SW5-S2 SW5-K SW6-K SW6-S2 SW1-S2 SW1-K J1-6 S1-3 SW2-S2
+        SW2-K SW3-K SW3-S2 SW4-K SW4-S2 SW7-K SW7-S2 SW8-S2 SW8-K)
+    )
+    (net LED1
+      (pins B1-5 R1-P$1)
+    )
+    (net LED2
+      (pins B1-6 R2-P$1)
+    )
+    (net LED3
+      (pins B1-7 R3-P$1)
+    )
+    (net LED4
+      (pins B1-8 R4-P$1)
+    )
+    (net LED5
+      (pins B1-9 R5-P$1)
+    )
+    (net LED6
+      (pins B1-10 R6-P$1)
+    )
+    (net LED7
+      (pins B1-11 R7-P$1)
+    )
+    (net LED8
+      (pins B1-12 R8-P$1)
+    )
+    (net KEY8
+      (pins B1-13 SW8-S1)
+    )
+    (net KEY7
+      (pins B1-14 SW7-S1)
+    )
+    (net KEY6
+      (pins B1-15 SW6-S1)
+    )
+    (net KEY5
+      (pins B1-16 SW5-S1)
+    )
+    (net KEY4
+      (pins B1-17 SW4-S1)
+    )
+    (net KEY3
+      (pins B1-18 SW3-S1)
+    )
+    (net KEY2
+      (pins B1-19 SW2-S1)
+    )
+    (net KEY1
+      (pins B1-20 SW1-S1)
+    )
+    (net VCC
+      (pins B1-21 J1-1)
+    )
+    (net RESET
+      (pins B1-22 J1-5 S1-1)
+    )
+    (net VIN
+      (pins B1-24 J1-2)
+    )
+    (net "Net-(R1-PadP$2)"
+      (pins SW1-A R1-P$2)
+    )
+    (net "Net-(R2-PadP$2)"
+      (pins R2-P$2 SW2-A)
+    )
+    (net "Net-(R3-PadP$2)"
+      (pins R3-P$2 SW3-A)
+    )
+    (net "Net-(R4-PadP$2)"
+      (pins R4-P$2 SW4-A)
+    )
+    (net "Net-(R5-PadP$2)"
+      (pins SW5-A R5-P$2)
+    )
+    (net "Net-(R6-PadP$2)"
+      (pins SW6-A R6-P$2)
+    )
+    (net "Net-(R7-PadP$2)"
+      (pins R7-P$2 SW7-A)
+    )
+    (net "Net-(R8-PadP$2)"
+      (pins R8-P$2 SW8-A)
+    )
+    (class kicad_default "" GND KEY1 KEY2 KEY3 KEY4 KEY5 KEY6 KEY7 KEY8 LED1
+      LED2 LED3 LED4 LED5 LED6 LED7 LED8 "Net-(R1-PadP$2)" "Net-(R2-PadP$2)"
+      "Net-(R3-PadP$2)" "Net-(R4-PadP$2)" "Net-(R5-PadP$2)" "Net-(R6-PadP$2)"
+      "Net-(R7-PadP$2)" "Net-(R8-PadP$2)" RESET RX TX VCC VIN
+      (circuit
+        (use_via Via[0-1]_508:254_um)
+      )
+      (rule
+        (width 254)
+        (clearance 152.5)
+      )
+    )
+  )
+  (wiring
+  )
+)

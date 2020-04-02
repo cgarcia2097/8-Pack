@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/animeman/.platformio/penv/bin:/home/animeman/.platformio/penv:/home/animeman/esp/xtensa-esp32-elf/bin:/home/animeman/.local/bin:/home/animeman/bin:/home/animeman/esp/xtensa-esp32-elf/bin:/home/animeman/.local/bin:/home/animeman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/animeman/Apps/arduino-1.8.8:/home/animeman/Apps/eagle-9.3.2:/home/animeman/Apps/Postman:/home/animeman/Apps/netbeans/bin:/home/animeman/esp/xtensa-esp32-elf/bin:/snap/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "Hello",
+			"path": "C:\\Users\\animeman\\Documents\\PlatformIO\\Projects\\Hello"
+		},
+		{
+			"name": "8pack",
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "C:\\Users\\animeman\\.platformio\\penv\\Scripts;C:\\Users\\animeman\\.platformio\\penv;C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.3.7-hotspot\\bin;C:\\Program Files\\Amazon Corretto\\jdk11.0.3_7\\bin;C:\\Program Files\\Amazon Corretto\\jdk1.8.0_212\\bin;C:\\Program Files (x86)\\Amazon Corretto\\jdk1.8.0_212\\bin;C:\\Program Files\\AdoptOpenJDK\\jdk-8.0.212.03-hotspot\\bin;C:\\Program Files (x86)\\AdoptOpenJDK\\jdk-8.0.212.03-hotspot\\bin;C:\\Program Files\\AdoptOpenJDK\\jre-8.0.212.03-hotspot\\bin;C:\\Program Files (x86)\\AdoptOpenJDK\\jre-8.0.212.03-hotspot\\bin;C:\\Program Files\\AdoptOpenJDK\\jre-11.0.3.7-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\animeman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\animeman\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.3.7-hotspot\\bin;C:\\Program Files\\Amazon Corretto\\jdk11.0.3_7\\bin;C:\\Program Files\\Amazon Corretto\\jdk1.8.0_212\\bin;C:\\Program Files (x86)\\Amazon Corretto\\jdk1.8.0_212\\bin;C:\\Program Files\\AdoptOpenJDK\\jdk-8.0.212.03-hotspot\\bin;C:\\Program Files (x86)\\AdoptOpenJDK\\jdk-8.0.212.03-hotspot\\bin;C:\\Program Files\\AdoptOpenJDK\\jre-8.0.212.03-hotspot\\bin;C:\\Program Files (x86)\\AdoptOpenJDK\\jre-8.0.212.03-hotspot\\bin;C:\\Program Files\\AdoptOpenJDK\\jre-11.0.3.7-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\animeman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\animeman\\AppData\\Local\\Programs\\MiKTeX 2.9\\miktex\\bin\\x64\\",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
