@@ -27,7 +27,7 @@ This doc should go over the basics of how to assemble the 8pack keypad.
 ## Board assembly
 This section delves into the assembly of the 8pack keypad, in chronological order. Order of assembly is important, as backtracking the steps requires knowledge of desoldering (a difficult process even for experienced hobbyists). There are also sub-steps in the main steps outlined above, which also need to be followed in that order.
 
-DISCLAIMER: The photos used for this guide both show pictures from Ver 1.2 and Ver 1.4. The overall process should not be any different
+DISCLAIMER: The photos used for this guide both show pictures from Ver 1.2 and Ver 1.4. However, the assembly guide focuses on Ver 1.4 and above
 
 # Step 1 - Inspect the parts
 
@@ -122,6 +122,42 @@ Solder and trim the resistor leads
 ![img](./images/IMG_0156.JPG)
 ![img](./images/IMG_2546.JPG)
 
+## Step 3.2 - Attach headers
+This step is rather for me to explain, so I recommend [Sparkfun's guide on how to install headers](https://learn.sparkfun.com/tutorials/arduino-shields/installing-headers-assembly) to get a feel for how this step will work.
+
+Short side goes through the hole and soldered:
+
+![img](./images/IMG_2548.JPG)
+
+Long side faces away from it:
+
+![img](./images/IMG_2549.JPG)
+![img](./images/IMG_2550.JPG)
+
+## Step 3.4 - Attach LEDs (For backlighting use, skip if unneeded)
+Depending on your style of switch, the order of assembly will differ.
+
+### Using a BOX-style switch
+A BOX switch is characterized by a cross inside a box, as shown here:
+
+![img](./images/IMG_2577.JPG)
+
+In this case, the LEDs sit underneath the keyswitch. Therefore one must attach the LEDs now.
+
+#### Step 3.4.1
+Thread the LEDs through their mounting holes. The orientation matters this time, so make sure the longer lead threads through the circular hole, while the shorter lead threads through the square hole. Sparkfun has guide about LED orientation which you can read [here](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all):
+
+![img](./images/IMG_2551.JPG)
+
+#### Step 3.4.2
+Solder the LEDs and trim their leads:
+
+![img](./images/IMG_2558.JPG)
+
+### Using a Cherry-style switch
+
+
+## Step 3.4 - Attach reset button
 
 # Step 4 - Join top plate and PCB together
 
