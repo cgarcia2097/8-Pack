@@ -1,176 +1,114 @@
-# Programming guide for 8pack
+# Programming Guide for 8pack
 This guide will go through the method of flashing default firmware into the 8pack using the Arduino environment. Other methods are under consideration at the moment. 
 
-## Using Arduino
-### Download and install the Arduino IDE
-Download the Arduino IDE ![here](https://www.arduino.cc/en/Main/Software) and install it to your machine.
+### 1 - Download the required software
+- Download and install the Arduino IDE from the Arduino website. [Link](https://www.arduino.cc/en/Main/Software). 
+- Click `Install` through all the driver download prompts.
+- Click `Close` when finished.
 
-### Download the Sparkfun Board Drivers
-In the Arduino IDE, open `File`-> `Preferences`. In the `Additional Boards Manager URLs` box, paste this link inside: ```https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json```
+![img](./images/programming/getarduino.png)
 
-Once that's done, open `Tools`->`Board`->`Boards Manager`. In the search box, type `sparkfun` and click `Install` on the 'Sparkfun AVR Boards' package. 
+### 2 - Get the code from the repository
+- Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. 
+- Inside Arduino, click `File`->`Open`
+![img](./images/programming/clickopen.png)
 
-Sparkfun also has a guide for that ![here](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all)
+- Find and open the newly-extracted `8-Pack` folder in Arduino
+![img](./images/programming/opencode.png)
 
-### Set up the programming environment
-In the Arduino IDE, open `Tools`-> `Boards`. Select `Sparkfun Pro Micro` from the selection of boards.
+- Inside the folder, go to `code`->`Arduino`->`8pack`->`8pack.ino`.
+![img](./images/programming/openArduino.png)
+![img](./images/programming/open8pack.png)
 
-Once that is done, open `Tools`-> `Port`. Select the port that appears here.
+- Open `8pack.ino`
+![img](./images/programming/openfile.png)
 
-### Download and install the `Bounce2` debouncing library
-Download the library ![here](https://github.com/thomasfredericks/Bounce2/archive/master.zip). 
+### 3 - Setting up the flashing environment
+The 8pack requires a specific environment at the moment to reprogram it, as no app exists at the moment.
 
-Once downloaded, open the Arduino IDE. Open `Sketch`->`Include Library`->`Manage Libraries`. Select the `Bounce2.zip` file you just downloaded.
+#### 3.1 - Installing the Libraries
+Once installed, download the required libraries by clicking `Sketch`->`Include Library`->`Manage Libraries` and install these libraries:
+  - Adafruit Neopixel
+  - Bounce2
 
-### Copy code from the repository
-Go ![here](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.2/Arduino%20Code/8-Pack.ino) to open the keypad code. Copy the code and paste it in the Arduino text editor.
+![img](./images/programming/openLibrary.png)
+![img](./images/programming/installLibrary.png)
 
-### Compile the code
-On the top-left corner, hit the `Compile` button to compile the keypad code. If `Done compiling` appears, then you have successfully created keypad firmware.
+#### 3.2 - Programming for the Pro Micro
+To set the environment to program for a Pro Micro, click `Tools`->`Board`->`Arduino Leonardo`. 
 
-### Flash the board with your compiled code
-Beside the `Compile` button, click on the `Upload` button to upload the compiled keypad code to the keypad. If `Done Uploading` appears, then you have successfully uploaded the code to the board.
+![img](./images/programming/chooseboard.png)
 
-### Test if the code works
-Open up a text editor or an office app, and press the keys. If letters are appearing on the screen, then you have a working keypad.
+While the Pro Micro has its own [installation guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all), it seems to share the same pin labels as the Arduino Leonardo. Choosing the Leonardo allows us to skip the hassle of setting up the Pro Micro manually, but may be subject to change later down the line as Sparkfun may change their design.
 
-## Further readings
-This section is for those who wish to extract more functionality out of the keypad.
+### 4 - Editing the keybinds
+Click over to the tabs and select `keybinds.h`
 
-### Board Layout 
-![img](https://github.com/cgarcia2097/8-Pack/blob/8-pack-updates/Ver.%201.1/keypad/canvas.png)
+![img](./images/programming/openkeybinds.png)
 
-The board layout is a simple layout. Pins A3 to 10 on the Pro Micro (Arduino pin numbers) correspond to SW1 to SW8 on the keypad, while pins 2 to 9 correspond to the LEDs on SW1 to SW8 respectively. The keyswitches are wired directly to `GND`, requiring the use of `INPUT_PULLUP` when setting up the pins in Arduino.
-
-The buttons can be accessed through Arduino's `digitalRead()` or using Bounce2's `button.fell()`/`button.rose()` (detecting falling and rising edges). The LEDs can be accessed and programmed though `digitalWrite()`.
-
-### Multiple-key Macros
-The default keypad code uses `for-loops` and `arrays` to scan through the keys, send keypresses and blink the corresponding LED. While the code is efficient and small, this limits the functionality of the default firmware.
-
-For now, one can set conditions on each button manually. For example, if we want to press `A`, `S`, `D` and `F` all at once using SW1, we must scan SW1 first.
-
-* Using `digitalRead()`
-```
-// When button is pressed
-if(keyArray[0] == 0){...}
-
-// When button is released
-else{...}
-```
-
-* Using `fell()`/`rose()`
-
-```
-// When button is pressed
-if(button[0].fell()){...}
-
-// When button is released
-if(button[0].rose()){...}
+You will see a large block of text that looks like this:
+``` 
+const unsigned char macroArray[NUMKEYS][HID_USB_LIMIT] = {
+  {KEY_ESC, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'d', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'s', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'a', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'v', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'c', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'x', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'z', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+};
 ```
 
-To send a keypress to USB, use the `Keyboard.send()` function, with the `A` character inside the function.
+![img](./images/programming/tobeEdited.png)
 
-* Using `digitalRead()`
-```
-// When button is pressed
-if(keyArray[0] == 0){
-  Keyboard.press('A');
-}
 
-// When button is released
-else{...}
-```
+Each row starting from starting underneath `const unsigned char macroArray[]` corresponds to a button on the keypad.
 
-* Using `fell()`/`rose()`
+What the keypad does is iterate through each row pressing and releasing (for when button is pressed or released) each key up until the `STOP_CODE` marker appears. This allows us to do a single press or multiple simultaneous keypresses per button.
 
-```
-// When button is pressed
-if(button[0].fell()){
-  Keyboard.press('A');
-}
+Let's go through some examples.
 
-// When button is released
-if(button[0].rose()){...}
-```
+- If you want to press the `Escape` key on button 1, the first row should look like:
 
-You must also release `A` or else the host PC will think `A` is held down indefinitely.
+  `{KEY_ESC, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
 
-* Using `digitalRead()`
-```
-// When button is pressed
-if(keyArray[0] == 0){
-  Keyboard.press('A');
-}
+- If you're a little macro heavy and wanna type a six-letter word on button 5, the fifth row should look like:
 
-// When button is released
-else{  
-  Keyboard.release('A');
-}
-```
+  `{'m', 'a', 'n', 'n', 'e', 'r'},`
 
-* Using `fell()`/`rose()`
+- If you like your Copy and Paste functionalities, your chosen two rows would look like this
 
-```
-// When button is pressed
-if(button[0].fell()){
-  Keyboard.press('A');
-}
+  `{KEY_LEFT_CTRL, 'c', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
 
-// When button is released
-if(button[0].rose()){
-  Keyboard.release('A');
-}
-```
-Now we repeat for the rest of the letters we want to send. The characters must be released in the reverse order they were pressed.
+  `{KEY_LEFT_CTRL, 'z', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
 
-* Using `digitalRead()`
-```
-// When button is pressed
-if(keyArray[0] == 0){
-  Keyboard.press('A');
-  Keyboard.press('S');
-  Keyboard.press('D');
-  Keyboard.press('F');
-}
+Letters, numbers and symbols are typed in single quotes, while modifiers like CTRL and SHIFT must use the defined macros here: https://www.arduino.cc/en/Reference/KeyboardModifiers
 
-// When button is released
-else{  
-  Keyboard.release('F');
-  Keyboard.release('D');
-  Keyboard.release('S');
-  Keyboard.release('A');
-}
-```
 
-* Using `fell()`/`rose()`
+### 5 - Compiling and uploading the code
+- Plug the keypad into your PC.
+- Click `Tools`->`Ports` and select the port with (Arduino/Genuino) beside the port name
 
-```
-// When button is pressed
-if(button[0].fell()){
-  Keyboard.press('A');
-  Keyboard.press('S');
-  Keyboard.press('D');
-  Keyboard.press('F');
- }
+![img](./images/programming/chooseport.png)
+![img](./images/programming/portSelected.png)
 
-// When button is released
-if(button[0].rose()){
-  Keyboard.release('F');
-  Keyboard.release('D');
-  Keyboard.release('S');
-  Keyboard.release('A');
-}
-```
 
-Lastly, if you would like to use modifiers like `CTRL`, `ALT`, etc., you will need to use Arduino-defined keyboard macros, which can be found ![here](https://www.arduino.cc/en/Reference/KeyboardModifiers). It is then called like this:
+- Click `Verify` to compile your code
 
-```
-// Pressing the modifier
-Keyboard.press(KEY_MODIFIER);
+![img](./images/programming/clickverify.png)
+![img](./images/programming/verifyoutput.png)
 
-// Releasing the modifier
-Keyboard.release(KEY_MODIFIER);
-```
+- Click `Upload` to upload your code
+
+![img](./images/programming/clickupload.png)
+![img](./images/programming/uploadoutput.png)
+
+### Testing out the keypad bindings
+Open your text editor of choice and give the keys some quick presses and see if the desired keys are being shown on screen. 
+
+![img](./images/programming/testing.png)
 
 ### TMK/QMK support
-TBA
+A third-party has created a QMK port of my keypad, which can be found here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/8pack
+
