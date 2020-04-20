@@ -6,36 +6,45 @@ This guide will go through the method of flashing default firmware into the 8pac
 - Click `Install` through all the driver download prompts.
 - Click `Close` when finished.
 
-![img]()
+![img](./images/programming/getarduino.png)
 
-### 2 - Setting up the flashing environment
+### 2 - Get the code from the repository
+- Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. 
+- Inside Arduino, click `File`->`Open`
+![img](./images/programming/clickopen.png)
+
+- Find and open the newly-extracted `8-Pack` folder in Arduino
+![img](./images/programming/opencode.png)
+
+- Inside the folder, go to `code`->`Arduino`->`8pack`->`8pack.ino`.
+![img](./images/programming/openArduino.png)
+![img](./images/programming/open8pack.png)
+
+- Open `8pack.ino`
+![img](./images/programming/openfile.png)
+
+### 3 - Setting up the flashing environment
 The 8pack requires a specific environment at the moment to reprogram it, as no app exists at the moment.
 
-#### 2.1 - Installing the Libraries
+#### 3.1 - Installing the Libraries
 Once installed, download the required libraries by clicking `Sketch`->`Include Library`->`Manage Libraries` and install these libraries:
   - Adafruit Neopixel
   - Bounce2
 
-![img]()
+![img](./images/programming/openLibrary.png)
+![img](./images/programming/installLibrary.png)
 
-#### 2.2 - Programming for the Pro Micro
+#### 3.2 - Programming for the Pro Micro
 To set the environment to program for a Pro Micro, click `Tools`->`Board`->`Arduino Leonardo`. 
 
-![img]()
+![img](./images/programming/chooseboard.png)
 
 While the Pro Micro has its own [installation guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all), it seems to share the same pin labels as the Arduino Leonardo. Choosing the Leonardo allows us to skip the hassle of setting up the Pro Micro manually, but may be subject to change later down the line as Sparkfun may change their design.
-
-### 3 - Get the code from the repository
-- Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. 
-- Inside Arduino, click `File`->`Open`
-- Find and open the newly-extracted `8-Pack` folder in Arduino
-- Inside the folder, go to `code`->`Arduino`->`8pack`->`8pack.ino`.
-- Open `8pack.ino`
 
 ### 4 - Editing the keybinds
 Click over to the tabs and select `keybinds.h`
 
-![img]()
+![img](./images/programming/openkeybinds.png)
 
 You will see a large block of text that looks like this:
 ``` 
@@ -50,6 +59,9 @@ const unsigned char macroArray[NUMKEYS][HID_USB_LIMIT] = {
   {'z', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
 };
 ```
+
+![img](./images/programming/tobeEdited.png)
+
 
 Each row starting from starting underneath `const unsigned char macroArray[]` corresponds to a button on the keypad.
 
@@ -78,22 +90,24 @@ Letters, numbers and symbols are typed in single quotes, while modifiers like CT
 - Plug the keypad into your PC.
 - Click `Tools`->`Ports` and select the port with (Arduino/Genuino) beside the port name
 
-![img]()
+![img](./images/programming/chooseport.png)
+![img](./images/programming/portSelected.png)
+
 
 - Click `Verify` to compile your code
 
-![img]()
-![img]()
+![img](./images/programming/clickverify.png)
+![img](./images/programming/verifyoutput.png)
 
 - Click `Upload` to upload your code
 
-![img]()
-![img]()
+![img](./images/programming/clickupload.png)
+![img](./images/programming/uploadoutput.png)
 
 ### Testing out the keypad bindings
 Open your text editor of choice and give the keys some quick presses and see if the desired keys are being shown on screen. 
 
-![img]()
+![img](./images/programming/testing.png)
 
 ### TMK/QMK support
 A third-party has created a QMK port of my keypad, which can be found here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/8pack
