@@ -2,7 +2,9 @@
 This guide will go through the method of flashing default firmware into the 8pack using the Arduino environment. Other methods are under consideration at the moment. 
 
 ### 1 - Download the required software
-- Install the Arduino IDE from the Arduino website. [Link](https://www.arduino.cc/en/Main/Software)
+- Download and install the Arduino IDE from the Arduino website. [Link](https://www.arduino.cc/en/Main/Software). 
+- Click `Install` through all the driver download prompts.
+- Click `Close` when finished.
 
 ![img]()
 
@@ -13,12 +15,6 @@ The 8pack requires a specific environment at the moment to reprogram it, as no a
 Once installed, download the required libraries by clicking `Sketch`->`Include Library`->`Manage Libraries` and install these libraries:
   - Adafruit Neopixel
   - Bounce2
-
-![img]()
-
-Alternatively one can manually add the ZIP files from their respective Github pages by clicking `Sketch`->`Include Library`->`Add .ZIP Library`
-  - Adafruit Neopixel: https://github.com/adafruit/Adafruit_NeoPixel/archive/master.zip
-  - Bounce2: https://github.com/thomasfredericks/Bounce2/archive/master.zip
 
 ![img]()
 
@@ -87,13 +83,15 @@ Letters, numbers and symbols are typed in single quotes, while modifiers like CT
 - Click `Verify` to compile your code
 
 ![img]()
+![img]()
 
 - Click `Upload` to upload your code
 
 ![img]()
+![img]()
 
 ### Testing out the keypad bindings
-Give the keys some quick presses and see if the desired keys are being shown on screen. 
+Open your text editor of choice and give the keys some quick presses and see if the desired keys are being shown on screen. 
 
 ![img]()
 
