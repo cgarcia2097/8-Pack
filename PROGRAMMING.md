@@ -30,25 +30,73 @@ To set the environment to program for a Pro Micro, click `Tools`->`Board`->`Ardu
 While the Pro Micro has its own [installation guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all), it seems to share the same pin labels as the Arduino Leonardo. Choosing the Leonardo allows us to skip the hassle of setting up the Pro Micro manually, but may be subject to change later down the line as Sparkfun may change their design.
 
 ### 3 - Get the code from the repository
-Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. Navigate to the folder `code/Arduino/8pack `. Then open the file `8pack.ino` in Arduino by clicking `File`->`Open`.
+- Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. 
+- Inside Arduino, click `File`->`Open`
+- Find and open the newly-extracted `8-Pack` folder in Arduino
+- Inside the folder, go to `code`->`Arduino`->`8pack`->`8pack.ino`.
+- Open `8pack.ino`
 
-### Editing the keybinds
+### 4 - Editing the keybinds
 Click over to the tabs and select `keybinds.h`
 
-(WIP)
+![img]()
 
-### Compiling and uploading the code
+You will see a large block of text that looks like this:
+``` 
+const unsigned char macroArray[NUMKEYS][HID_USB_LIMIT] = {
+  {KEY_ESC, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'d', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'s', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'a', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'v', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'c', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'x', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+  {'z', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},
+};
+```
+
+Each row starting from starting underneath `const unsigned char macroArray[]` corresponds to a button on the keypad.
+
+What the keypad does is iterate through each row pressing and releasing (for when button is pressed or released) each key up until the `STOP_CODE` marker appears. This allows us to do a single press or multiple simultaneous keypresses per button.
+
+Let's go through some examples.
+
+- If you want to press the `Escape` key on button 1, the first row should look like:
+
+  `{KEY_ESC, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
+
+- If you're a little macro heavy and wanna type a six-letter word on button 5, the fifth row should look like:
+
+  `{'m', 'a', 'n', 'n', 'e', 'r'},`
+
+- If you like your Copy and Paste functionalities, your chosen two rows would look like this
+
+  `{KEY_LEFT_CTRL, 'c', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
+
+  `{KEY_LEFT_CTRL, 'z', STOP_CODE, STOP_CODE, STOP_CODE, STOP_CODE},`
+
+Letters, numbers and symbols are typed in single quotes, while modifiers like CTRL and SHIFT must use the defined macros here: https://www.arduino.cc/en/Reference/KeyboardModifiers
+
+
+### 5 - Compiling and uploading the code
 - Plug the keypad into your PC.
 - Click `Tools`->`Ports` and select the port with (Arduino/Genuino) beside the port name
-- Click `Verify` and `Upload`.
+
+![img]()
+
+- Click `Verify` to compile your code
+
+![img]()
+
+- Click `Upload` to upload your code
+
+![img]()
 
 ### Testing out the keypad bindings
-Give the keys some quick presses (WIP)
+Give the keys some quick presses and see if the desired keys are being shown on screen. 
 
-### Editing on PlatformIO
-WIP
+![img]()
 
 ### TMK/QMK support
 A third-party has created a QMK port of my keypad, which can be found here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/8pack
-
 
