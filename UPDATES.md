@@ -1,4 +1,14 @@
+# Update 07/06/2020
+
+It's been three months since the last update, and other projects have been on my mind lately. I am updating this repo as a change of pace, and here's the recent set of updates:
+
+## Added to the repo
+* Updated [programming guide](./ASSEMBLY.md)
+* Updated official README page
+
+
 # Update 04/02/2020
+
 Whew, it's been almost a year. Finally got back into updating the repos as usual
 
 ## Added to the repo
