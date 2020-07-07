@@ -3,7 +3,7 @@ This guide will go through the method of flashing default firmware into the 8pac
 
 ### 1 - Download the required software
 
-- Download and install the Arduino IDE from the Arduino website. [Link](https://www.arduino.cc/en/Main/Software). 
+- Download and install the Arduino IDE from the Arduino website. ( [Link](https://www.arduino.cc/en/Main/Software) )
 - Click `Install` through all the driver download prompts.
 - Click `Close` when finished.
 
@@ -13,11 +13,11 @@ This guide will go through the method of flashing default firmware into the 8pac
 
 - Download and unpack the project: https://github.com/cgarcia2097/8-Pack/archive/master.zip. 
 - Inside Arduino, click `File`->`Open`
-- 
+  
 ![img](./images/programming/clickopen.PNG)
 
 - Find and open the newly-extracted `8-Pack` folder in Arduino
-- 
+  
 ![img](./images/programming/opencode.PNG)
 
 - Inside the folder, go to `code`->`Arduino`->`8pack`->`8pack.ino`.
