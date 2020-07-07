@@ -4,7 +4,12 @@ It's been three months since the last update, and other projects have been on my
 
 ## Added to the repo
 * Updated [programming guide](./ASSEMBLY.md)
-* Updated official README page
+* Added [more images](./images/showcase/)
+* Updated [README](./README.md) page
+
+## TBD
+* QMK port for Rev. 1.4 - 1.5
+* Choosing a mainline 8pack revision, since maintaining all other revisions seem redundant
 
 
 # Update 04/02/2020

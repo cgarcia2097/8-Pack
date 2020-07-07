@@ -1,4 +1,4 @@
-# Assembly Guide (WIP)
+# Assembly Guide
 This doc should go over the basics of how to assemble the 8pack keypad. 
 
 #### Prerequisites
