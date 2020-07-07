@@ -9,8 +9,10 @@ Inspired by [di0ib's Six Pack design](http://www.40percent.club/2017/04/six-pack
 ## Features
 
 ### PCB
+
   - 8 keys, directly connected to MCU pins
   - 8 backlight LEDs, individually addresssable
+  - Powered by the Pro Micro
   - Alps or MX button support
   - Runs on a simple Arduino sketch, or optionally QMK firmware
 
